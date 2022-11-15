@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Quest Data Viewer</title>
+        <style>
+            .textNpc {
+                color: rgb(220, 0, 255);
+            }
+
+            .textPlace {
+                color: rgb(0, 170, 0);
+            }
+
+            .textItem {
+                color: rgb(0, 170, 255);
+            }
+
+            .textMob {
+                color: red;
+            }
+
+            #start>div, #end>div {
+                border: 1px solid black;
+            }
+
+            #mainTable {}
+
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+                margin: 2px 0;
+            }
+        </style>
+        <script type="module" src="./view.js"></script>
+    </head>
+
+    <body>
+        <select id="dropDown"></select>
+        <div>
+            <table id="mainTable">
+                <tr>
+                    <td>Id: </td>
+                    <td><span id="id"></span></td>
+                </tr>
+                <tr>
+                    <td>Name: </td>
+                    <td><span id="name"></span></td>
+                </tr>
+                <tr>
+                    <td>Description: </td>
+                    <td><span id="desc"></span></td>
+                </tr>
+                <tr>
+                    <td>Minigame: </td>
+                    <td><span id="minigame"></span></td>
+                </tr>
+                <tr>
+                    <td>Start: </td>
+                    <td><span id="start"></span></td>
+                </tr>
+                <tr>
+                    <td>End: </td>
+                    <td><span id="end"></span></td>
+                </tr>
+            </table>
+        </div>
+    </body>
+
+</html>
