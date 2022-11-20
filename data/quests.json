@@ -16976,5 +16976,3361 @@
                 ]
             }
         ]
+    },
+    {
+        "Id": 402,
+        "Name": "Deer-Gineer",
+        "Description": "[n140], [n126]\u0027s good friend, likes making lots of gadgets and other crazy things. He might have something that would be perfect for waking up [n129] from his deep slumber. Look for [n140] in [p22] and speak with him right away.",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 402,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 401,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 126,
+                "Dialog": 2506,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "\u0022Talk to [n140]\u0022"
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 402,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 140,
+                "Dialog": 2507,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 1845
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 5,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 500
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 403,
+        "Name": "Loud Noises",
+        "Description": "As luck may have it, [n140] has just finished drafting up plans for something called a \u0022Noise Machine\u0022. However, [n140]\u0027s friends, [n127] and [n142], are still making parts for the gizmo. If you need to make the Noise Machine, you\u0027ll need to talk to them about how to make the parts. Your first stop is [n127] and then [n142].",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 403,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 402,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 140,
+                "Dialog": 2511,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "\u0022Talk to [n127] first\u0022"
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 403,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 127,
+                "Dialog": 2512,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 1845
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 5,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 500
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 404,
+        "Name": "Part 1 (Herbal Essences)",
+        "Description": "[n127] needs you to help him finish his chores so he can give you [i8023]. Without it, you won\u0027t be able to make [n140]\u0027s Noise Machine. He needs you to collect 12 [i1116] from Florapods in [p60], 10 [i1122] from Golden Moonstalks in [p60] and 15 [i1133] from Ginseng in [p61].",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 404,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 403,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 127,
+                "Dialog": 2516,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 1116,
+                        "Count": 12
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 1122,
+                        "Count": 10
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 1133,
+                        "Count": 15
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 404,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 127,
+                "Dialog": 2517,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 5420
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 5,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 500
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 8023,
+                        "Male": 8023,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 405,
+        "Name": "Part 2 (Feeling Lucky)",
+        "Description": "[n142] has the [i649]. This is a very important part of [n140]\u0027s Noise Machine. Get 13 [i1168] from [m107], 13 [i1177] from [m112] and 13 [i1152] from [m42]. Return to [n142] when you\u0027re done. When you have created the Noise Machine using the [i8507] go to [p71] to wake [n129] up.",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 405,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 404,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 142,
+                "Dialog": 2521,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 1168,
+                        "Count": 13
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 1177,
+                        "Count": 13
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 1152,
+                        "Count": 13
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 405,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 142,
+                "Dialog": 2522,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 5420
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 5,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 500
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 8024,
+                        "Male": 8024,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 406,
+        "Name": "That Tired Dog",
+        "Description": "[n129] wasn\u0027t really asleep but was actually looking for [n125]. He hasn\u0027t asked his close friends [n127], [n128], and [n126] about [n125]. Ask each one of them and find out where [n125] is.",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 406,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 405,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 129,
+                "Dialog": 2526,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 0 \u0022Talk to [n127]\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 1 \u0022Talk to [n128]\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 2 \u0022Talk to [n126]\u0022"
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 406,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 129,
+                "Dialog": 2527,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 3690
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 5,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 500
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 15330,
+                        "Male": 15330,
+                        "Count": 1
+                    }
+                ]
+            },
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 0 \u0022Talk to [n127]\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 1 \u0022Talk to [n128]\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 2 \u0022Talk to [n126]\u0022"
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 406,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 129,
+                "Dialog": 2528,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 3690
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 5,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 500
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 15330,
+                        "Male": 15330,
+                        "Count": 1
+                    }
+                ]
+            },
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 0 \u0022Talk to [n127]\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 1 \u0022Talk to [n128]\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 2 \u0022Talk to [n126]\u0022"
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 406,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 129,
+                "Dialog": 2529,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 3690
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 5,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 500
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 15330,
+                        "Male": 15330,
+                        "Count": 1
+                    }
+                ]
+            },
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 0 \u0022Talk to [n127]\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 1 \u0022Talk to [n128]\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 2 \u0022Talk to [n126]\u0022"
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 406,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 129,
+                "Dialog": 2530,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 3690
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 5,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 500
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 15330,
+                        "Male": 15330,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 407,
+        "Name": "Chibimaru and His Cookies",
+        "Description": "[n125] is locked inside his house. [n129] has an idea that could work: If you bake [n125]\u0027s most favorite food ever, [i1841], he might wake up and come out of his house after taking a whiff of its delicious scent wafting in the air. Go to [p11] and speak with [n70].",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 407,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 406,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 129,
+                "Dialog": 2535,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "\u0022Talk to [n70]\u0022"
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 407,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 70,
+                "Dialog": 2536,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 6420
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 5,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 500
+                    },
+                    {
+                        "Type": "Select",
+                        "Sub": [
+                            {
+                                "Type": "Item",
+                                "Female": 15864,
+                                "Male": 15864,
+                                "Count": 1
+                            },
+                            {
+                                "Type": "Item",
+                                "Female": 15865,
+                                "Male": 15865,
+                                "Count": 1
+                            },
+                            {
+                                "Type": "Item",
+                                "Female": 15866,
+                                "Male": 15866,
+                                "Count": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 408,
+        "Name": "Other Options",
+        "Description": "[n70]\u0027s decided to try designing houses and she wants you to try out her very first design. Gather 15 [i1118] from Bamboo in [p60], 10 [i1030] from Beryl Rock in [p63], 10 [i1034] from Electrum Rock in [p63] and 15 [i1440] from Giant Lily in [p52]. You will need these materials to make the house. Return to her once you\u0027re done collecting.",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 408,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 407,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 70,
+                "Dialog": 2540,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 1118,
+                        "Count": 15
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 1030,
+                        "Count": 10
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 1034,
+                        "Count": 10
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 1440,
+                        "Count": 15
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 408,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 70,
+                "Dialog": 2541,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 5220
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 5,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 500
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 409,
+        "Name": "Designer Decor",
+        "Description": "[n70] has come up with a couple of furniture guides. Craft [i3810] and [i3709] and show it to [n70]. She will be so happy!",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 409,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 408,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 70,
+                "Dialog": 2545,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 3810,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 3709,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 409,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 70,
+                "Dialog": 2546,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 3690
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 5,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 500
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 8498,
+                        "Male": 8498,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 410,
+        "Name": "Wake Up, Chibimaru!",
+        "Description": "Bake a batch of [i1841] and bring them to [n129]. Hopefully, this will bring [n125] out of his house.",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 410,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 409,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 70,
+                "Dialog": 2550,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 1841,
+                        "Count": 10
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 410,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 129,
+                "Dialog": 2551,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 3690
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 5,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 500
+                    },
+                    {
+                        "Type": "Select",
+                        "Sub": [
+                            {
+                                "Type": "Item",
+                                "Female": 16039,
+                                "Male": 16039,
+                                "Count": 1
+                            },
+                            {
+                                "Type": "Item",
+                                "Female": 16040,
+                                "Male": 16040,
+                                "Count": 1
+                            },
+                            {
+                                "Type": "Item",
+                                "Female": 16041,
+                                "Male": 16041,
+                                "Count": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 411,
+        "Name": "The Cookie Pirate",
+        "Description": "[n125] is still asleep! The cookies didn\u0027t work but [n129] doesn\u0027t want them to go to waste. He met this fellow named [n53], the cookie pirate, in [p66]. Surely he would be able to put the cookies to good use.",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 411,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 410,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 129,
+                "Dialog": 2555,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 1841,
+                        "Count": 10
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 411,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 53,
+                "Dialog": 2556,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 3690
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 5,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 500
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 412,
+        "Name": "He Likes Cookies",
+        "Description": "[n53], the self-proclaimed \u0022cookie pirate\u0022, would like to test your baking skills. He wants you to make 3 [i1835], 3 [i1790], 3 [i1791], 3 [i1792], 3 [i1841]. If [n53] likes them enough, he\u0027ll give you one of his prized possessions.",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 412,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 411,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 53,
+                "Dialog": 2560,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 1835,
+                        "Count": 3
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 1790,
+                        "Count": 3
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 1791,
+                        "Count": 3
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 1792,
+                        "Count": 3
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 1841,
+                        "Count": 3
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 412,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 53,
+                "Dialog": 2561,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 5720
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 5,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 500
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 2191,
+                        "Male": 2191,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 413,
+        "Name": "Coo-Key!",
+        "Description": "The Coo-Key may look like a regular cookie, but it\u0027s actually a real key! [n53] thinks it might belong to [n125]. Head over to [p75] and see if the key works.",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 413,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 412,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 53,
+                "Dialog": 2565,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 413,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 125,
+                "Dialog": 2566,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 1845
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 5,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 500
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 414,
+        "Name": "Business As Usual",
+        "Description": "[n125] is behind in all of his projects. To make up for time, he needs you to visit his four apprentices and help speed up their assignments. Speak with [n128] first since his project is the most urgent one.",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 414,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 413,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 125,
+                "Dialog": 2570,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "\u0022Talk to [n128]\u0022"
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 414,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 128,
+                "Dialog": 2571,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 1845
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 5,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 500
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 415,
+        "Name": "Chairs!",
+        "Description": "Your first project is to help [n128] finish his [i3818]. You will need to collect 12 [i1251] and make 2 [i627], 2 [i1813] and 1 [i599] and finally purchase 3 [i624]. Return to [n128] when you\u0027re done. After that, talk to [n126] for your next assignment.",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 415,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 414,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 128,
+                "Dialog": 2575,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 1251,
+                        "Count": 12
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 627,
+                        "Count": 2
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 1813,
+                        "Count": 2
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 599,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 624,
+                        "Count": 3
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 415,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 128,
+                "Dialog": 2576,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 3690
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 5,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 500
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 3818,
+                        "Male": 3818,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 8471,
+                        "Male": 8471,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 416,
+        "Name": "Window Frames!",
+        "Description": "Project #2 is helping [n126] finish his [i3309]. Collect 13 [i1254] and make 2 [i607], 2 [i597] and 4 [i596]. You will also need to purchase 5 [i624]. Return to [n126] when you\u0027re done. After that, talk to [n127] for your next assignment.",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 416,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 415,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 126,
+                "Dialog": 2580,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 1254,
+                        "Count": 13
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 607,
+                        "Count": 2
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 597,
+                        "Count": 2
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 596,
+                        "Count": 4
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 624,
+                        "Count": 5
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 416,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 126,
+                "Dialog": 2581,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 3690
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 5,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 500
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 3309,
+                        "Male": 3309,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 8473,
+                        "Male": 8473,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 417,
+        "Name": "Cabinets!",
+        "Description": "Your third project is all about helping [n127] finish  [n125]\u0027s [i3863]. You will need to collect 18 [i1255] and make 2 [i600], 10 [i597], 6 [i596]. You must also purchase 8 [i624]. Return to [n127] when you\u0027re done. After that, talk to [n129] for your next Assignment.",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 417,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 416,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 127,
+                "Dialog": 2585,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 1255,
+                        "Count": 18
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 600,
+                        "Count": 2
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 597,
+                        "Count": 10
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 596,
+                        "Count": 6
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 624,
+                        "Count": 8
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 417,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 127,
+                "Dialog": 2586,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 3690
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 5,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 500
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 3863,
+                        "Male": 3863,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 8474,
+                        "Male": 8474,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 418,
+        "Name": "Desks!",
+        "Description": "Your last project requires you to help [n129] finish [n125]\u0027s [i3703]. He needs you to collect 20 [i1247] and make 6 [i597], 6 [i596]. You will also need to buy 8 [i624] and 3 [i625]. Return to [n129] when you\u0027re done. When you finish the last project, return to [n125] and share the good news.",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 418,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 417,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 129,
+                "Dialog": 2590,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 1247,
+                        "Count": 20
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 597,
+                        "Count": 6
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 596,
+                        "Count": 6
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 624,
+                        "Count": 8
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 625,
+                        "Count": 3
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 418,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 129,
+                "Dialog": 2591,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 3690
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 5,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 500
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 3703,
+                        "Male": 3703,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 8475,
+                        "Male": 8475,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 419,
+        "Name": "Oh That Crazy Monkichi",
+        "Description": "[n125]\u0027s customer, [n137], didn\u0027t pick up his order. Take [i657] and bring it to him.",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 419,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 418,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 125,
+                "Dialog": 2595,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "\u0022Give [n137] his order\u0022"
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 419,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 137,
+                "Dialog": 2596,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 1845
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 5,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 500
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 420,
+        "Name": "How To Wake Up a Monkey",
+        "Description": "[n137] won\u0027t wake up. Perhaps if you present him with 25 [i10111] and 1 [i1812], he might wake up.",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 420,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 419,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 137,
+                "Dialog": 2600,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 10111,
+                        "Count": 25
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 1812,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 420,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 137,
+                "Dialog": 2601,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 3690
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 5,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 800
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 421,
+        "Name": "How To Wake Up a Monkey Pt.2",
+        "Description": "You\u0027re left with resorting to crude methods: [i658] and [i595]. Get these items and return to [n137].",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 421,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 420,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 137,
+                "Dialog": 2605,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 658,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 595,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 421,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 137,
+                "Dialog": 2606,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 3690
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 5,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 600
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 422,
+        "Name": "How To Wake Up a Monkey Pt.3",
+        "Description": "[n137] is STILL asleep! Return to [n125] and try to figure out a plan on how to wake him up.",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 422,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 421,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 137,
+                "Dialog": 2610,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "\u0022Talk to [n125]\u0022"
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 422,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 125,
+                "Dialog": 2611,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 1845
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 5,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 500
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 423,
+        "Name": "Monkichi\u0027s Song",
+        "Description": "[n125] thinks that you\u0027ll need to play [n137]\u0027s favorite song \u0022Bananza\u0022 to wake him up. You should visit Sanrio Land\u0027s greatest musicians [n69], [n77] and [n66], and ask them to play the song. You need to talk to them in order so the song doesn\u0027t get mixed up. Once you complete the song, visit [n137] and try to wake him up.",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 423,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 422,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 125,
+                "Dialog": 2615,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 0 \u0022Talk to [n69]\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 1 \u0022Talk to [n77]\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 2 \u0022Talk to [n66]\u0022"
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 661,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 423,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 137,
+                "Dialog": 2616,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 6520
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 5,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 500
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 2192,
+                        "Male": 2192,
+                        "Count": 1
+                    }
+                ]
+            },
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 0 \u0022Talk to [n69]\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 1 \u0022Talk to [n77]\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 2 \u0022Talk to [n66]\u0022"
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 661,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 423,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 137,
+                "Dialog": 2617,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 6520
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 5,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 500
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 2192,
+                        "Male": 2192,
+                        "Count": 1
+                    }
+                ]
+            },
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 0 \u0022Talk to [n69]\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 1 \u0022Talk to [n77]\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 2 \u0022Talk to [n66]\u0022"
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 661,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 423,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 137,
+                "Dialog": 2618,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 6520
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 5,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 500
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 2192,
+                        "Male": 2192,
+                        "Count": 1
+                    }
+                ]
+            },
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 0 \u0022Talk to [n69]\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 1 \u0022Talk to [n77]\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 2 \u0022Talk to [n66]\u0022"
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 661,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 423,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 137,
+                "Dialog": 2619,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 6520
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 5,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 500
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 2192,
+                        "Male": 2192,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 424,
+        "Name": "Closed For The Day",
+        "Description": "[n143]\u0027s bakery is temporarily shut down and [n127] is worried that the folks in [p22] will go hungry. He wants to try his paw at baking so he needs you to purchase [i8407], [i8410], [i8412],  [i8414], [i8496] and [i8500] so he can learn how to bake. Travel all over Sanrio Land and talk to the different merchants and look for the cooking guides.",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 424,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 423,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 127,
+                "Dialog": 2620,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 8407,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 8410,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 8412,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 8414,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 8496,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 8500,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 424,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 127,
+                "Dialog": 2621,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 6520
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 5,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 900
+                    },
+                    {
+                        "Type": "Select",
+                        "Sub": [
+                            {
+                                "Type": "Item",
+                                "Female": 14112,
+                                "Male": 14112,
+                                "Count": 1
+                            },
+                            {
+                                "Type": "Item",
+                                "Female": 14113,
+                                "Male": 14113,
+                                "Count": 1
+                            },
+                            {
+                                "Type": "Item",
+                                "Female": 14114,
+                                "Male": 14114,
+                                "Count": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 425,
+        "Name": "Sharing is Good",
+        "Description": "With your help, he was able to cook up his first batch of [i662] and is really excited about it. Look for 10 players in Sanrio Land and share the treats with them.",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 425,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 424,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 127,
+                "Dialog": 2625,
+                "Rewards": []
+            }
+        ],
+        "End": []
+    },
+    {
+        "Id": 426,
+        "Name": "The Very First Customer ",
+        "Description": "Your free advertising got [n127] her first customer. Deliver [i662] to [n142].",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 426,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 425,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 127,
+                "Dialog": 2630,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "\u0022Deliver [i662]\u0022"
+                    },
+                    {
+                        "Type": "HaveItem",
+                        "Id": 662,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 426,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 142,
+                "Dialog": 2631,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 1845
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 5,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 500
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 427,
+        "Name": "Magic Breadcrumbs",
+        "Description": "[n142] found a [i663] while he was out taking a walk in [p60] and he believes that it\u0027s a clue to waking [n143] up. Go to [p60] and follow the magical breadcrumbs. If you do find anything related to [n143], go to the [p73] in [p22].",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 427,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 426,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 142,
+                "Dialog": 2635,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "flag 0 \u0022Follow the breadcrumbs\u0022"
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 663,
+                        "Count": 25
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 427,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 143,
+                "Dialog": 2636,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 5420
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 5,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 500
+                    },
+                    {
+                        "Type": "Select",
+                        "Sub": [
+                            {
+                                "Type": "Item",
+                                "Female": 14117,
+                                "Male": 14117,
+                                "Count": 1
+                            },
+                            {
+                                "Type": "Item",
+                                "Female": 14062,
+                                "Male": 14062,
+                                "Count": 1
+                            },
+                            {
+                                "Type": "Item",
+                                "Female": 14108,
+                                "Male": 14108,
+                                "Count": 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "flag 0 \u0022Follow the breadcrumbs\u0022"
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 663,
+                        "Count": 25
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 427,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 143,
+                "Dialog": 2637,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 5420
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 5,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 500
+                    },
+                    {
+                        "Type": "Select",
+                        "Sub": [
+                            {
+                                "Type": "Item",
+                                "Female": 14117,
+                                "Male": 14117,
+                                "Count": 1
+                            },
+                            {
+                                "Type": "Item",
+                                "Female": 14062,
+                                "Male": 14062,
+                                "Count": 1
+                            },
+                            {
+                                "Type": "Item",
+                                "Female": 14108,
+                                "Male": 14108,
+                                "Count": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 428,
+        "Name": "Out of This World Cupcakes",
+        "Description": "While sleeping, [n143] came up with an incredible recipe for [i664] that he is just itching to let [n102] and [n103] try it out. Take a batch of his cupcakes to them.",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 428,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 427,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 143,
+                "Dialog": 2640,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 428,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 103,
+                "Dialog": 2641,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 5220
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 5,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 500
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 16255,
+                        "Male": 16133,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 429,
+        "Name": "An Audience with the Prince",
+        "Description": "The Little Twin Stars need to speak with [n138] in [p22], but he\u0027s talking in some foreign language. Try talking to [n138] and see if you can figure out what he\u0027s trying to say.",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 429,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 428,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 218,
+                "Dialog": 2645,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 0 \u0022Talk to [n138]\u0022"
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 429,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 102,
+                "Dialog": 2646,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 1845
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 5,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 500
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 17031,
+                        "Male": 17031,
+                        "Count": 1
+                    }
+                ]
+            },
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 0 \u0022Talk to [n138]\u0022"
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 429,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 102,
+                "Dialog": 2647,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 1845
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 5,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 500
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 17031,
+                        "Male": 17031,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 430,
+        "Name": "Do You Speak Jeebrish?",
+        "Description": "It turns out that [n137] knows how to make an [i2141], which lets a person understand any language. The Little Twin Stars need this wand but they can\u0027t seem to find [n137]. Go find him and ask him for his help!",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 430,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 429,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 219,
+                "Dialog": 2650,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 430,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 137,
+                "Dialog": 2651,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 3690
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 5,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 500
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 431,
+        "Name": "Intergalactic",
+        "Description": "[n137] needs you to collect materials for making an [i2141]. Bring [n137] the following: 2 [i646], 1 [i647], 20 [i1148] from the Golden Spore Trees in [p65], 8 [i1170] from [m108] and 5 [i1115] from Prism Rock in [p62]. Once you\u0027ve collected everything, go back to [n137] and see if the thing really works!",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 431,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 430,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 137,
+                "Dialog": 2655,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 646,
+                        "Count": 2
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 647,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 1148,
+                        "Count": 20
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 1170,
+                        "Count": 8
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 1115,
+                        "Count": 5
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 431,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 137,
+                "Dialog": 2656,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 5420
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 5,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 600
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 2194,
+                        "Male": 2194,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 432,
+        "Name": "Chasing Stars",
+        "Description": "You can now speak with [n138]! He explains he\u0027s  here on a mission to help [n102] and [n103] get their powers back. He needs 10 [i1104] from Malachite in [p66], 5 [i1108] from Starbright Rocks in [p61], and 16 [i1053] from Starlight Rocks because these rocks contain magical essence that [n138] will use to restore the Twins\u0027 power.",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 432,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 431,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 138,
+                "Dialog": 2660,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 1104,
+                        "Count": 10
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 1108,
+                        "Count": 5
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 1053,
+                        "Count": 16
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 432,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 138,
+                "Dialog": 2661,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 5520
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 5,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 600
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 17616,
+                        "Male": 17616,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 433,
+        "Name": "Star Power",
+        "Description": "Bring the [i17616] to the Twins to restore their powers.",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 433,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 432,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 138,
+                "Dialog": 2665,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 17616,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 433,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 102,
+                "Dialog": 2666,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 5320
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 5,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 600
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 17626,
+                        "Male": 17626,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 434,
+        "Name": "Hard Worker",
+        "Description": "[n131] has been working really hard on making [i3711] for some friends. He\u0027s already pretty tired, but he still has a lot to do! If only he could have some of that tea that he used to drink with [n128], he\u0027d surely get the energy to keep going. You should ask [n128] for help.",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 434,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 418,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 131,
+                "Dialog": 2670,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "\u0022Talk to [n128]\u0022"
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 434,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 128,
+                "Dialog": 2671,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 1045
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 5,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 300
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 435,
+        "Name": "Let\u0027s Make Tea!",
+        "Description": "[n128]\u0027s looking for the guide so you can make [i1704] for [n131]. You will need to find the following ingredients: 5 [i10156], 5 [i517], 5 [i5022], 5 [i515], 3 [i10106] while he searches for [i8494].",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 435,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 434,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 128,
+                "Dialog": 2675,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 10156,
+                        "Count": 5
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 517,
+                        "Count": 5
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 5022,
+                        "Count": 5
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 515,
+                        "Count": 5
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 10106,
+                        "Count": 3
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 435,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 128,
+                "Dialog": 2676,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 3920
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 5,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 500
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 8494,
+                        "Male": 8494,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 436,
+        "Name": "Delicious Tea",
+        "Description": "You can use the guide from [n128] to learn how to make [i1704]. Don\u0027t forget to give some to [n131], he will surely be grateful for your help!",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 436,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 435,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 128,
+                "Dialog": 2680,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 1704,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 436,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 131,
+                "Dialog": 2681,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 2690
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 5,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 500
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 8480,
+                        "Male": 8480,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 437,
+        "Name": "Lazy Daisy",
+        "Description": "One thing that [n132] loves most when she\u0027s cozying up with a good book is a nice cup of [i1726]. She decided it\u0027s time to learn how to make some herself, and all she needs is the guide book! Would you like to try finding one for her in [p22]?",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 437,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 436,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 132,
+                "Dialog": 2685,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 8495,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 437,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 132,
+                "Dialog": 2686,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 2690
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 5,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 650
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 8482,
+                        "Male": 8482,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 438,
+        "Name": "Giving Back",
+        "Description": "[n130] needs a couch, but since [n131] is busy making sidetables, [n132] can find no one else to help her make one. Are you willing to make a [i3846] for [n130]?",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 438,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 437,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 132,
+                "Dialog": 2690,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 3846,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 438,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 130,
+                "Dialog": 2691,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 2690
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 5,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 650
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 439,
+        "Name": "Care For Some Tea? ",
+        "Description": "[n130] wants to have a chat with you if you have time, and is offering you some [i1845]. Would you like to get 2 cups for her from [n60]? Don\u0027t forget to hand her one of them!",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 439,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 438,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 130,
+                "Dialog": 2695,
+                "Rewards": []
+            }
+        ],
+        "End": []
+    },
+    {
+        "Id": 440,
+        "Name": "A Sister\u0027s Concern",
+        "Description": "[n130] is worried about [n133], because he\u0027s been suffering from a sore throat recently. You should make some [i1733] to soothe his throat.",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 440,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 439,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 130,
+                "Dialog": 2700,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 1733,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 440,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 133,
+                "Dialog": 2701,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 2690
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 5,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 650
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 441,
+        "Name": "Cluttered Clothes",
+        "Description": "[n133] is getting ready for a performance, but as always, he\u0027s struggling to find the right things to wear in his messy pile of clothes. A wardrobe would really help him get ready for his shows. Maybe [n131] knows how to make one.",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 441,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 440,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 133,
+                "Dialog": 2705,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "\u0022Talk to [n131]\u0022"
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 441,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 131,
+                "Dialog": 2706,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 1245
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 5,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 650
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 8505,
+                        "Male": 8505,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 442,
+        "Name": "Clothes Management",
+        "Description": "Gather materials and build a [i3868] for [n133]. He will surely be grateful.",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 442,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 441,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 131,
+                "Dialog": 2710,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 3868,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 442,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 133,
+                "Dialog": 2711,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 4920
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 5,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 500
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 3514,
+                        "Male": 3514,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 443,
+        "Name": "A Bright Idea",
+        "Description": "[n140] is trying to make a [i3504] that glows using a special kind of material that he found in [p65]. Unfortunately, he isn\u0027t strong enough to hang around the cranky monsters in the area. Would you like to help him retrieve the 10 [i1148] from Golden Spore Trees?",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 443,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 418,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 140,
+                "Dialog": 2715,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 1148,
+                        "Count": 10
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 443,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 140,
+                "Dialog": 2716,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 2690
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 5,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 500
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 8506,
+                        "Male": 8506,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 444,
+        "Name": "Share the Light",
+        "Description": "[n140] would like to share his new invention with [n125]. Help him deliver a [i3504] to [n125].",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 444,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 443,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 140,
+                "Dialog": 2720,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 3504,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 444,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 125,
+                "Dialog": 2721,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 2490
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 5,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 500
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 445,
+        "Name": "The Master\u0027s Test",
+        "Description": "[n125] has heard of all the nice things you\u0027ve done for the Chewppies, but now he\u0027s asking you to make a [i3629] for [n134] without telling you why.  Are you willing to make it for him?",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 445,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 444,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 125,
+                "Dialog": 2725,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 3629,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 445,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 134,
+                "Dialog": 2726,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 3090
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 5,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 650
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 446,
+        "Name": "Kindness and Selflessness",
+        "Description": "[n134] mentioned something about a test, but you\u0027ll have to talk to [n125] again to find out what it was. ",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 446,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 445,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 134,
+                "Dialog": 2730,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "\u0022Talk to [n125]\u0022"
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 446,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 125,
+                "Dialog": 2731,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 1445
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 5,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Select",
+                        "Sub": [
+                            {
+                                "Type": "Item",
+                                "Female": 2024,
+                                "Male": 2024,
+                                "Count": 1
+                            },
+                            {
+                                "Type": "Item",
+                                "Female": 2025,
+                                "Male": 2025,
+                                "Count": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     }
 ]
