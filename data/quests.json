@@ -22954,5 +22954,650 @@
                 ]
             }
         ]
+    },
+    {
+        "Id": 8801,
+        "Name": "Pet Problems",
+        "Description": "[n411] is looking for 15 [i4401]s with which to cheer up a pet; you\u0027ll find these snowflakes on Jersey Ginseng in [p56].",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 8801,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8800,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 411,
+                "Dialog": 9703,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 4401,
+                        "Count": 15
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8801,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 411,
+                "Dialog": 9704,
+                "Rewards": [
+                    {
+                        "Type": "Money",
+                        "Amount": 300
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 7,
+                        "Amount": 25
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 8803,
+        "Name": "A Sticky Situation",
+        "Description": "[n412] wants to power up an old sparkler to cheer up the denizens of [p108], but gnarly roots don\u0027t make for great Cheer Essence! Go into town and buy a [i4410] so you can mush up your 30 [i4400] into 15 [i4404].",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 8803,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8800,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 412,
+                "Dialog": 9709,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "\u0022Cook your 30 [i4400] into 15 [i4404]... or find some!\u0022"
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 4404,
+                        "Count": 15
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8803,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 412,
+                "Dialog": 9710,
+                "Rewards": [
+                    {
+                        "Type": "Money",
+                        "Amount": 600
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 7,
+                        "Amount": 25
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 4541,
+                        "Male": 4541,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 4513,
+                        "Male": 4513,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 8804,
+        "Name": "Cappiness",
+        "Description": "With a newly powered-up wand, you\u0027re all set to take on unhappiness face-to-face! Cheer up the [c81] around the area and come back with 10 [i4451].",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 8804,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8803,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 412,
+                "Dialog": 9712,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 4451,
+                        "Count": 10
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "rel_npc 412"
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8804,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 412,
+                "Dialog": 9713,
+                "Rewards": [
+                    {
+                        "Type": "Money",
+                        "Amount": 600
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 7,
+                        "Amount": 25
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 8805,
+        "Name": "Pet Problems II",
+        "Description": "[n411]\u0027s pet [c95] is still sad. In New Jersey (the area north of the bridge in [p108]) you can find some [i4407] from the Frostshell growing there. Perhaps this will cheer up the poor pet.",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 8805,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8801,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 411,
+                "Dialog": 9715,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 4407,
+                        "Count": 20
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8805,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 411,
+                "Dialog": 9716,
+                "Rewards": [
+                    {
+                        "Type": "Money",
+                        "Amount": 300
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 7,
+                        "Amount": 25
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 8806,
+        "Name": "Pet Problems III",
+        "Description": "It\u0027s [n411]\u0027s last hurrah - this time you need to get 10 [i4420] from [c121] on the far side of New Jersey. That\u0027s in [p108].",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 8806,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8805,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 411,
+                "Dialog": 9718,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 4420,
+                        "Count": 10
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8806,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 411,
+                "Dialog": 9719,
+                "Rewards": [
+                    {
+                        "Type": "Money",
+                        "Amount": 300
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 7,
+                        "Amount": 25
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 8809,
+        "Name": "A Fine Collection",
+        "Description": "Take your collection of vibes to [n413], and she will show you how to use them to make your Sparkler stronger. She\u0027s on the east side of New Jersey.",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 8809,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8804,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 412,
+                "Dialog": 9727,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "\u0022Talk to [n413]\u0022"
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8809,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 413,
+                "Dialog": 9728,
+                "Rewards": [
+                    {
+                        "Type": "Money",
+                        "Amount": 600
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 7,
+                        "Amount": 25
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 8810,
+        "Name": "Cheering Up",
+        "Description": "[n413] wants you to show her your upgraded sparkler. To upgrade, first un-equip your sparkler and put it in your inventory. Right-click on the [i4451], but don\u0027t press OK yet! Then, right-click on your sparkler. Click OK, and voila! Talk to [n413] without equipping your new Sparkler to complete the quest.",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 8810,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8809,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 413,
+                "Dialog": 9730,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "\u0022Combine your [i4541] with your [i4451] to get [i4542], then talk to [n413] before equipping it.\u0022"
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8810,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 413,
+                "Dialog": 9731,
+                "Rewards": [
+                    {
+                        "Type": "Money",
+                        "Amount": 600
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 7,
+                        "Amount": 25
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 4519,
+                        "Male": 4519,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 8811,
+        "Name": "Brooklyn Bound",
+        "Description": "[n423] told you that [n421] is having a bad hair day and needs to be cheered up. Speak with [n421], who can be found keeping it real near the south entrance of [p108].",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 8811,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8810,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 423,
+                "Dialog": 9733,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "\u0022Talk to [n421]\u0022"
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8811,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 421,
+                "Dialog": 9734,
+                "Rewards": [
+                    {
+                        "Type": "Friendship",
+                        "Village": 7,
+                        "Amount": 25
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 4524,
+                        "Male": 4524,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 8812,
+        "Name": "Hanamaru\u0027s Bronxaroo?",
+        "Description": "It sounds like [n416]\u0027s in a pickle. Find him at [p57], which is to the northeast of [p108].",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 8812,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8810,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 416,
+                "Dialog": 9736,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "\u0022Talk to [n416] in [p57].\u0022"
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8812,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 416,
+                "Dialog": 9737,
+                "Rewards": [
+                    {
+                        "Type": "Friendship",
+                        "Village": 7,
+                        "Amount": 25
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 4521,
+                        "Male": 4521,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 8813,
+        "Name": "Saving New York",
+        "Description": "The mayor of [p108] has gone bonkers and is stuck in the [p109] for being naughty. Without the mayor, the denizens of this city have become demoralized and depressed. \nOnly 5 combined essences of [p108] will restore the mayor. Find the [i4621], [i4622], [i4623], [i4624], and [i4625]. [n436] and her friends will help you obtain them, so go talk to them. ",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 8813,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8812,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 416,
+                "Dialog": 9739,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 4621,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 4622,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 4623,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 4624,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 4625,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8813,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 416,
+                "Dialog": 9740,
+                "Rewards": [
+                    {
+                        "Type": "Money",
+                        "Amount": 1500
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 7,
+                        "Amount": 175
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 4525,
+                        "Male": 4525,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 8814,
+        "Name": "Time Out!",
+        "Description": "You combined all the Cheer Essences of [p108]! You\u0027ve got what it takes to cheer up [c133], now. Go through the [p58] and cheer up [c133], then show me evidence of his good mood! ",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 8814,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8813,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 416,
+                "Dialog": 9742,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "\u0022Bring the [i4662] back to [n416].\u0022"
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 4662,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8814,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 416,
+                "Dialog": 9743,
+                "Rewards": [
+                    {
+                        "Type": "Money",
+                        "Amount": 1500
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 7,
+                        "Amount": 175
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 4501,
+                        "Male": 4501,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
     }
 ]
