@@ -24169,12 +24169,12 @@
                 "Requirements": [
                     {
                         "Type": "Quest",
-                        "Id": 8827,
+                        "Id": 8828,
                         "Flags": 1
                     },
                     {
                         "Type": "Quest",
-                        "Id": 8814,
+                        "Id": 8827,
                         "Flags": 4
                     }
                 ],
@@ -24186,17 +24186,12 @@
                 "Requirements": [
                     {
                         "Type": "GiveItem",
-                        "Id": 4555,
-                        "Count": 1
-                    },
-                    {
-                        "Type": "GiveItem",
                         "Id": 4663,
                         "Count": 1
                     },
                     {
                         "Type": "Quest",
-                        "Id": 8827,
+                        "Id": 8828,
                         "Flags": 2
                     }
                 ],
