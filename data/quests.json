@@ -22811,10 +22811,6 @@
                         "Count": 4
                     },
                     {
-                        "Type": "Idk",
-                        "Text": "rel_npc 143"
-                    },
-                    {
                         "Type": "Quest",
                         "Id": 569,
                         "Flags": 2
@@ -23107,10 +23103,6 @@
                         "Type": "GiveItem",
                         "Id": 4451,
                         "Count": 10
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "rel_npc 412"
                     },
                     {
                         "Type": "Quest",
@@ -23595,6 +23587,1567 @@
                         "Female": 4501,
                         "Male": 4501,
                         "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 8816,
+        "Name": "The Penguinos",
+        "Description": "Cheer a [c68] using the [i2409]. Return to [n425] with any interesting information you find.",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 8816,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8810,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 425,
+                "Dialog": 9754,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 2411,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8816,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 425,
+                "Dialog": 9755,
+                "Rewards": [
+                    {
+                        "Type": "Money",
+                        "Amount": 300
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 7,
+                        "Amount": 25
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 4520,
+                        "Male": 4520,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 8817,
+        "Name": "Don Penguino",
+        "Description": "Cheer [c69] using the [i2409]. Return to [n425] with any interesting information you find.",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 8817,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8816,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 425,
+                "Dialog": 9757,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 2412,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8817,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 425,
+                "Dialog": 9758,
+                "Rewards": [
+                    {
+                        "Type": "Money",
+                        "Amount": 300
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 7,
+                        "Amount": 25
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 4508,
+                        "Male": 4508,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 8818,
+        "Name": "Pochi\u2019s Pizza Parlor",
+        "Description": "Go talk to [n428] inside [p156].",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 8818,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8817,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 425,
+                "Dialog": 9850,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 8818,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 428,
+                "Dialog": 9851,
+                "Rewards": [
+                    {
+                        "Type": "Item",
+                        "Female": 1946,
+                        "Male": 1946,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 8819,
+        "Name": "Choco\u2019s Chocolatey Pizza",
+        "Description": "Deliver [2433] to [n412] before the pizza turns cold. You only have about 2 minutes!",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 8819,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8818,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 428,
+                "Dialog": 9853,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 2433,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8819,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 412,
+                "Dialog": 9854,
+                "Rewards": [
+                    {
+                        "Type": "Item",
+                        "Female": 1946,
+                        "Male": 1946,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 8821,
+        "Name": "Bad Hair Day",
+        "Description": "Keep it real in Brooklyn by bringing [n421] 25 [i4421] from the [c116]s milling about by the tennis courts.\nYou\u0027ve been given a [i4539] in case you don\u0027t have a Sparkler already.",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 8821,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8811,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 421,
+                "Dialog": 9745,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 4421,
+                        "Count": 25
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8821,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 421,
+                "Dialog": 9746,
+                "Rewards": [
+                    {
+                        "Type": "Money",
+                        "Amount": 300
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 7,
+                        "Amount": 25
+                    },
+                    {
+                        "Type": "Select",
+                        "Sub": [
+                            {
+                                "Type": "Item",
+                                "Female": 4536,
+                                "Male": 4536,
+                                "Count": 1
+                            },
+                            {
+                                "Type": "Item",
+                                "Female": 4537,
+                                "Male": 4537,
+                                "Count": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 8822,
+        "Name": "Hair of the Doggie",
+        "Description": "Cheer up some Lonely Chillyhounds with a touch of fresh fragrance from your new Sparkler. Bring back the [i4415]s you find to [n421].\nIf you lose your Sparkler, The [n433] sells these too! ...For a price.",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 8822,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8821,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 421,
+                "Dialog": 9748,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 4415,
+                        "Count": 40
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8822,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 421,
+                "Dialog": 9749,
+                "Rewards": [
+                    {
+                        "Type": "Money",
+                        "Amount": 300
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 7,
+                        "Amount": 25
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 4686,
+                        "Male": 4686,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 4502,
+                        "Male": 4502,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 8823,
+        "Name": "Sparks for Sparkles",
+        "Description": "Rrrr-[n419] will take your Sparklers and turn them into [i4450]s. Nothing goes to waste!",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 8823,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8813,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 419,
+                "Dialog": 9766,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "\u0022Take a [i4567] to the [n419]\u0022"
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8823,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 419,
+                "Dialog": 9767,
+                "Rewards": [
+                    {
+                        "Type": "Friendship",
+                        "Village": 7,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 4442,
+                        "Male": 4442,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 8824,
+        "Name": "A New York Minute",
+        "Description": "[n423] would like to be a New Yorker and wants you to bring her a [i4497]. Whatever that is, it sounds like you really have to spend some time here!",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 8824,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8822,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 423,
+                "Dialog": 9769,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 4497,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8824,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 423,
+                "Dialog": 9770,
+                "Rewards": [
+                    {
+                        "Type": "Money",
+                        "Amount": 1500
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 4685,
+                        "Male": 4685,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 8825,
+        "Name": "Very Important Matters",
+        "Description": "[n424] is very interested in [i4496]. Whatever it is, it sounds expensive! Bring some to him.",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 8825,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8813,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 424,
+                "Dialog": 9772,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 4496,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8825,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 424,
+                "Dialog": 9773,
+                "Rewards": [
+                    {
+                        "Type": "Item",
+                        "Female": 4690,
+                        "Male": 4690,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 8827,
+        "Name": "Curious Beginnings",
+        "Description": "You received a new Sparkler.\nIf you combine it with your [i4555], you can get a new sparkler... but it will start at level 1!\nAre you curious enough to try this out? Don\u0027t do it if you\u0027re not ready! If you are, put both sparklers in your inventory and find the [n419].",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 8827,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8814,
+                        "Flags": 4
+                    }
+                ],
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 4555,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 4661,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8827,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 419,
+                "Dialog": 9779,
+                "Rewards": [
+                    {
+                        "Type": "Money",
+                        "Amount": 600
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 7,
+                        "Amount": 25
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 4646,
+                        "Male": 4646,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 8828,
+        "Name": "Curiosity Continued",
+        "Description": "Incredible! You\u0027ve completed the Curious Series! Show your [i4663] to [n415] to claim your prize.",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 8827,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8814,
+                        "Flags": 4
+                    }
+                ],
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 4555,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 4663,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8827,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 415,
+                "Dialog": 9782,
+                "Rewards": [
+                    {
+                        "Type": "Money",
+                        "Amount": 300
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 7,
+                        "Amount": 75
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 4692,
+                        "Male": 4692,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 4693,
+                        "Male": 4693,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 4694,
+                        "Male": 4694,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 8829,
+        "Name": "Zappy Cells!",
+        "Description": "[n415] has lost his baseball and gained a Gadgety Doodad, but It seems to be broken - it won\u0027t stop chirping \u0022MORE ZAPPY CELLS!\u0022. Collect 75 [i4450]s and return to [n415].",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 8829,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8813,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 415,
+                "Dialog": 9787,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 4450,
+                        "Count": 75
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8829,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 415,
+                "Dialog": 9788,
+                "Rewards": [
+                    {
+                        "Type": "Money",
+                        "Amount": 300
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 7,
+                        "Amount": 25
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 4500,
+                        "Male": 4503,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 8830,
+        "Name": "Zappy Cells Part Two!",
+        "Description": "[n415] has lost his baseball and gained a Gadgety Doodad, but It seems to be broken - it won\u0027t stop chirping \u0022MORE ZAPPY CELLS!\u0022. Collect 220 [i4450] and return to [n415].",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 8830,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8829,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 415,
+                "Dialog": 9790,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 4450,
+                        "Count": 220
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8830,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 415,
+                "Dialog": 9791,
+                "Rewards": [
+                    {
+                        "Type": "Money",
+                        "Amount": 300
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 7,
+                        "Amount": 25
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 4523,
+                        "Male": 4523,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 8831,
+        "Name": "Zappy Cells Part Three!",
+        "Description": "[n415] has lost his baseball and gained a Gadgety Doodad, but It seems to be broken - it won\u0027t stop chirping \u0022MORE ZAPPY CELLS!\u0022. Collect 500 [i4450] and return to [n415].",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 8831,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8830,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 415,
+                "Dialog": 9793,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 4450,
+                        "Count": 500
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8831,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 415,
+                "Dialog": 9794,
+                "Rewards": [
+                    {
+                        "Type": "Money",
+                        "Amount": 300
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 7,
+                        "Amount": 25
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 4509,
+                        "Male": 4509,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 8832,
+        "Name": "Zappy Cells Part Four!",
+        "Description": "[n415] has lost his baseball and gained a Gadgety Doodad, but It seems to be broken - it won\u0027t stop chirping \u0022MORE ZAPPY CELLS!\u0022. Collect 1000 [i4450] and return to [n415].",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 8832,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8831,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 415,
+                "Dialog": 9795,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 4450,
+                        "Count": 1000
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8832,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 415,
+                "Dialog": 9796,
+                "Rewards": [
+                    {
+                        "Type": "Money",
+                        "Amount": 300
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 7,
+                        "Amount": 25
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 4684,
+                        "Male": 4684,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 8833,
+        "Name": "Zappy Cells Forever!",
+        "Description": "You and [n415] fixed the Gadgety Doodad! Now it\u0027s \u0022SPREADING GOOD VIBES\u0022. [n415]\u0027s new gadget uses up power quickly, and will need a recharge soon. Collect 500 [i4450] and return to Badtz.\nYou can complete this quest as many times as you want  to increase Friendship and Money.",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 8833,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8832,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 415,
+                "Dialog": 9797,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 4450,
+                        "Count": 500
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8833,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 415,
+                "Dialog": 9798,
+                "Rewards": [
+                    {
+                        "Type": "Money",
+                        "Amount": 600
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 7,
+                        "Amount": 50
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 8834,
+        "Name": "Cheering Cappy I",
+        "Description": "[n436] would like you to Cheer Up the [c111] walking around, and collect their [i4591]s in return. Bring 45 back to [n436].",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 8834,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8813,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 436,
+                "Dialog": 9800,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 4591,
+                        "Count": 45
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "rel_npc 436"
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8834,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 436,
+                "Dialog": 9801,
+                "Rewards": [
+                    {
+                        "Type": "Money",
+                        "Amount": 300
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 7,
+                        "Amount": 25
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 4621,
+                        "Male": 4621,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 4451,
+                        "Male": 4451,
+                        "Count": 10
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 8835,
+        "Name": "Cheering Cappy II",
+        "Description": "[n436] wants you to collect the [i4591]s from the [c111] walking around. If you cheer them up, you will receive them as gifts. Bring 65 back to [n436].",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 8835,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8834,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 436,
+                "Dialog": 9803,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 4591,
+                        "Count": 65
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8835,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 436,
+                "Dialog": 9804,
+                "Rewards": [
+                    {
+                        "Type": "Money",
+                        "Amount": 300
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 7,
+                        "Amount": 25
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 4450,
+                        "Male": 4450,
+                        "Count": 10
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 8836,
+        "Name": "Cheering Waddle I ",
+        "Description": "[n437] would like you to Cheer Up the dopey Waddle [c112]. Collect 75 of their [i4592] and bring them back. Who knows! Maybe some of their crazy style will rub off on [n437].",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 8836,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8813,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 437,
+                "Dialog": 9806,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 4592,
+                        "Count": 75
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8836,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 437,
+                "Dialog": 9807,
+                "Rewards": [
+                    {
+                        "Type": "Money",
+                        "Amount": 300
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 7,
+                        "Amount": 25
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 4622,
+                        "Male": 4622,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 4452,
+                        "Male": 4452,
+                        "Count": 20
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 8837,
+        "Name": "Cheering Waddle II",
+        "Description": "[n437] would like you to continue cheering up the [c112] and bring back 110 [i4592].",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 8837,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8836,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 437,
+                "Dialog": 9809,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 4592,
+                        "Count": 110
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8837,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 437,
+                "Dialog": 9810,
+                "Rewards": [
+                    {
+                        "Type": "Money",
+                        "Amount": 300
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 7,
+                        "Amount": 25
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 4450,
+                        "Male": 4450,
+                        "Count": 30
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 8838,
+        "Name": "Cheering Vinny I",
+        "Description": "[n438] would like you to Cheer up the slick-shoed [c113] and bring back their [i4593]s. When you\u0027ve collected 110, come back to [n438]!",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 8838,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8813,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 438,
+                "Dialog": 9812,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 4593,
+                        "Count": 110
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8838,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 438,
+                "Dialog": 9813,
+                "Rewards": [
+                    {
+                        "Type": "Money",
+                        "Amount": 300
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 7,
+                        "Amount": 25
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 4623,
+                        "Male": 4623,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 4453,
+                        "Male": 4453,
+                        "Count": 30
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 8839,
+        "Name": "Cheering Vinny II",
+        "Description": "You can never get enough shine. Cheer up more [c113] and bring back 170 [i4593] to [n438].",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 8839,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8838,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 438,
+                "Dialog": 9815,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 4593,
+                        "Count": 170
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8839,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 438,
+                "Dialog": 9816,
+                "Rewards": [
+                    {
+                        "Type": "Money",
+                        "Amount": 300
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 7,
+                        "Amount": 25
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 4450,
+                        "Male": 4450,
+                        "Count": 50
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 8840,
+        "Name": "Cheering Hobbes I",
+        "Description": "The Little Twin Stars want to help cheer the [c114] that walk around [p108]. You will need to cheer up the [c114] until you get 160 [i4594]s.",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 8840,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8813,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 439,
+                "Dialog": 9818,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 4594,
+                        "Count": 160
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8840,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 440,
+                "Dialog": 9819,
+                "Rewards": [
+                    {
+                        "Type": "Money",
+                        "Amount": 300
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 7,
+                        "Amount": 25
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 4624,
+                        "Male": 4624,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 4454,
+                        "Male": 4454,
+                        "Count": 40
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 8841,
+        "Name": "Cheering Hobbes II",
+        "Description": "The Little Twin Stars want you to continue cheering up the [c114]. Cheer up more of them until you collect 240 [i4594]s. ",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 8841,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8840,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 439,
+                "Dialog": 9821,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 4594,
+                        "Count": 240
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8841,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 440,
+                "Dialog": 9822,
+                "Rewards": [
+                    {
+                        "Type": "Money",
+                        "Amount": 300
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 7,
+                        "Amount": 25
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 4450,
+                        "Male": 4450,
+                        "Count": 100
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 8842,
+        "Name": "Cheering Oswald I",
+        "Description": "Bear markets and sleepy times are about to turn around. Cheer up some [c115] and return to [n441] with their strange \u0026 mystical [i4595].",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 8842,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8813,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 441,
+                "Dialog": 9824,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 4595,
+                        "Count": 125
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8842,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 441,
+                "Dialog": 9825,
+                "Rewards": [
+                    {
+                        "Type": "Money",
+                        "Amount": 300
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 7,
+                        "Amount": 25
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 4625,
+                        "Male": 4625,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 4455,
+                        "Male": 4455,
+                        "Count": 50
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 8843,
+        "Name": "Cheering Oswald II",
+        "Description": "This is the last [p108]er\u0027s Quest! Cheer up more [c115] and return to [n441] with more of their appreciative [i4595].",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 8843,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8842,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 441,
+                "Dialog": 9827,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 4595,
+                        "Count": 185
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8843,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 441,
+                "Dialog": 9828,
+                "Rewards": [
+                    {
+                        "Type": "Money",
+                        "Amount": 300
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 7,
+                        "Amount": 25
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 4683,
+                        "Male": 4683,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 4450,
+                        "Male": 4450,
+                        "Count": 200
                     }
                 ]
             }
