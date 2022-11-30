@@ -24169,12 +24169,12 @@
                 "Requirements": [
                     {
                         "Type": "Quest",
-                        "Id": 8827,
+                        "Id": 8828,
                         "Flags": 1
                     },
                     {
                         "Type": "Quest",
-                        "Id": 8814,
+                        "Id": 8827,
                         "Flags": 4
                     }
                 ],
@@ -24196,7 +24196,7 @@
                     },
                     {
                         "Type": "Quest",
-                        "Id": 8827,
+                        "Id": 8828,
                         "Flags": 2
                     }
                 ],
@@ -25160,6 +25160,11 @@
                         "Type": "Quest",
                         "Id": 1600,
                         "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1635,
+                        "Flags": 4
                     },
                     {
                         "Type": "Quest",
