@@ -24169,12 +24169,12 @@
                 "Requirements": [
                     {
                         "Type": "Quest",
-                        "Id": 8828,
+                        "Id": 8827,
                         "Flags": 1
                     },
                     {
                         "Type": "Quest",
-                        "Id": 8827,
+                        "Id": 8814,
                         "Flags": 4
                     }
                 ],
@@ -24186,12 +24186,17 @@
                 "Requirements": [
                     {
                         "Type": "GiveItem",
+                        "Id": 4555,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "GiveItem",
                         "Id": 4663,
                         "Count": 1
                     },
                     {
                         "Type": "Quest",
-                        "Id": 8828,
+                        "Id": 8827,
                         "Flags": 2
                     }
                 ],
@@ -24548,10 +24553,6 @@
                         "Type": "GiveItem",
                         "Id": 4591,
                         "Count": 45
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "rel_npc 436"
                     },
                     {
                         "Type": "Quest",
@@ -25143,6 +25144,2861 @@
                         "Female": 4450,
                         "Male": 4450,
                         "Count": 200
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 1600,
+        "Name": "Welcome to Tokyo",
+        "Description": "Welcome to [p14], adventurer! Folks from this city love games, wacky gadgets and adventures. For them, these things are a way of life and it\u0027s cool and fun and everyone should try them on their stay in this beautiful city. [n326] suggests that you visit [n327] outside the [p103]. Enjoy your stay!",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 1600,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1636,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 326,
+                "Dialog": 6500,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "\u0022Talk to [n327] outside the [p103]\u0022"
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1600,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 326,
+                "Dialog": 6501,
+                "Rewards": [
+                    {
+                        "Type": "Money",
+                        "Amount": 200
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 8,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Exp",
+                        "Amount": 2937
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 35,
+                        "Male": 35,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 36,
+                        "Male": 36,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 37,
+                        "Male": 37,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 1601,
+        "Name": "It\u0027s Game Time",
+        "Description": "[n327] recommends going to the [p103] as it is the biggest tourist attraction in [p14].  ",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 1601,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1600,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 327,
+                "Dialog": 6503,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "flag 1637 \u0022Play the Capsule Machine\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "flag 1638 \u0022Play the UFO Catcher\u0022"
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1601,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 327,
+                "Dialog": 6504,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 2660
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 8,
+                        "Amount": 40
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 250
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 1602,
+        "Name": "The Forgotten Camera",
+        "Description": "[n327]\u0027s friend, [n328], is also new to [p14] and is off somewhere seeing the sights. However, he forgot his camera. Since you\u0027re also new in the city, [n327] thinks that it\u0027s best that you find [n328] and give him his camera so you too will have the chance to explore.",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 1602,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1601,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 327,
+                "Dialog": 6506,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "\u0022Find [n328] and give him [i874]\u0022"
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1602,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 328,
+                "Dialog": 6507,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 2150
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 8,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 200
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 10792,
+                        "Male": 10792,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 1603,
+        "Name": "The Lost Sunglasses",
+        "Description": "[n328] was having so much fun exploring [p14] that he dropped his sunglasses. He doesn\u0027t exactly know where they might be but he is positive that they are in [p14].",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 1603,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1602,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 328,
+                "Dialog": 6509,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 875,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1603,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 328,
+                "Dialog": 6510,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 2800
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 8,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 300
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 10792,
+                        "Male": 10792,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 1604,
+        "Name": "Runaway Turtle",
+        "Description": "[n328] met a boy named [n329] while exploring [p14].  [n329]\u0027s turtle is missing and [n328], while is helping by searching for the pet as he explores the city. Talk to [n329] and see what you can do to help.",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 1604,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1603,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 328,
+                "Dialog": 6512,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "\u0022Talk to [n329]\u0022"
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1604,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 329,
+                "Dialog": 6513,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 2380
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 8,
+                        "Amount": 10
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 200
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 10792,
+                        "Male": 10792,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 1605,
+        "Name": "Return to Kurousa if Found",
+        "Description": "[n329] needs your help posting [i876] on the north, south, east, west and central part of [p14]. Come back to him when you\u0027re finished.",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 1605,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1604,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 329,
+                "Dialog": 6515,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "flag 5049 \u0022Missing Pet Flyer in the northern part of Tokyo\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "flag 5048 \u0022Missing Pet Flyer in the southern part of Tokyo\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "flag 5050 \u0022Missing Pet Flyer in the eastern part of Tokyo\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "flag 5051 \u0022Missing Pet Flyer in the western part of Tokyo\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "flag 5052 \u0022Missing Pet Flyer in the central part of Tokyo\u0022"
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1605,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 329,
+                "Dialog": 6516,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 5108
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 8,
+                        "Amount": 50
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 250
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 10792,
+                        "Male": 10792,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 1606,
+        "Name": "A Turtle Found",
+        "Description": "[n332] has returned to [n329]! Talk to him again to receive your reward.",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 1606,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1605,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 329,
+                "Dialog": 6518,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 1606,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 329,
+                "Dialog": 6519,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 1950
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 8,
+                        "Amount": 30
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 150
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 10792,
+                        "Male": 10792,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 1607,
+        "Name": "Item Delivery",
+        "Description": "[n329] was busy making fritters for [n330] when [n332] decided to go on an adventure by himself. Now [n329] can\u0027t go and deliver [i877] because he wants to stay put in case [n332] returns. He needs you to deliver the fritter to the quirky [n330]. To find [p104], check your area map.",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 1607,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1606,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 329,
+                "Dialog": 6521,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "\u0022Deliver [i877] to [n330]\u0022"
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1607,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 330,
+                "Dialog": 6522,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 2500
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 8,
+                        "Amount": 5
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 80
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 10792,
+                        "Male": 10792,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 1608,
+        "Name": "Sushi on the Loose",
+        "Description": "[n330] didn\u0027t explain much but automatically assumed that you were his new assistant. He demanded you find 10 [i878] from the [m268] in [p95]. ",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 1608,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1607,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 330,
+                "Dialog": 6524,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 878,
+                        "Count": 10
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1608,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 330,
+                "Dialog": 6525,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 4529
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 8,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 250
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 10793,
+                        "Male": 10793,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 1609,
+        "Name": "Find Kerokero Keroppi",
+        "Description": "[n330] wants you to find [n327]!",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 1609,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1608,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 330,
+                "Dialog": 6527,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "\u0022Talk to [n327]\u0022"
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1609,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 327,
+                "Dialog": 6528,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 2000
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 8,
+                        "Amount": 5
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 40
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 10792,
+                        "Male": 10792,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 1610,
+        "Name": "Find Keroppa",
+        "Description": "With the sudden surge of adventurers visiting [p14], food supplies are running a little low. [n330] asked help from [n331], [n327]\u0027s dad. [n331]\u0027s pretty good when it comes to science. You can find [n327] in [p95].",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 1610,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1609,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 327,
+                "Dialog": 6530,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "\u0022Talk to [n331]\u0022"
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1610,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 331,
+                "Dialog": 6531,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 2000
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 8,
+                        "Amount": 5
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 150
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 10792,
+                        "Male": 10792,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 1611,
+        "Name": "Weird Science",
+        "Description": "[n331] mentioned something about a [i879] but didn\u0027t really explain what it was. He gave you a [i880] that must be delivered quickly to [n330].",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 1611,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1610,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 331,
+                "Dialog": 6533,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "\u0022Bring the [i880] to [n330]\u0022"
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1611,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 330,
+                "Dialog": 6534,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 2555
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 8,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 200
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 10792,
+                        "Male": 10792,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 1612,
+        "Name": "Sunny Side Up",
+        "Description": "[n330] is being weird and mysterious, which may actually be what he is like normally... if that is the right word. He needs you to bring him 2 [i1702].",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 1612,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1611,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 330,
+                "Dialog": 6536,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 1702,
+                        "Count": 2
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1612,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 330,
+                "Dialog": 6537,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 2155
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 8,
+                        "Amount": 5
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 260
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 10792,
+                        "Male": 10792,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 1613,
+        "Name": "The Food Gigantifier",
+        "Description": "Now that [n330] is full after eating a hearty breakfast, he needs you to deliver a [i881] to [n331] to determine if it is safe to eat. This is an experimental sandwich... handle with care.",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 1613,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1612,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 330,
+                "Dialog": 6539,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "\u0022Take the [i881] to [n331]\u0022"
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1613,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 331,
+                "Dialog": 6540,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 2355
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 8,
+                        "Amount": 60
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 150
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 10792,
+                        "Male": 10792,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 1614,
+        "Name": "That\u0027s One Serious Sandwich",
+        "Description": "Although the [i881] may cause side effects, [n331] is positive that the effects are just temporary and harmless. Return the [i881] back to [n330]. The food is ready for testing!",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 1614,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1613,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 331,
+                "Dialog": 6542,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "\u0022Return the [i881] to [n330]\u0022"
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1614,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 330,
+                "Dialog": 6543,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 2355
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 8,
+                        "Amount": 60
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 100
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 10792,
+                        "Male": 10792,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 1615,
+        "Name": "Calling All Test Subjects",
+        "Description": "It seems that [n330] is so stuffed after his breakfast that he can\u0027t taste-test the [i890]. You, being his assistant, must try the experimental sandwich.",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 1615,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1614,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 330,
+                "Dialog": 6545,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 0 \u0022Eat the [i890]\u0022"
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1615,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 330,
+                "Dialog": 6546,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 2710
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 8,
+                        "Amount": 60
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 250
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 891,
+                        "Male": 891,
+                        "Count": 5
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 10793,
+                        "Male": 10793,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 1616,
+        "Name": "Ready For Round Two?",
+        "Description": "[n330] needs another round of tests. This time, eat the [i882].",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 1616,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1615,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 330,
+                "Dialog": 6548,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 0 \u0022Eat the [i882]\u0022"
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1616,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 330,
+                "Dialog": 6549,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 2710
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 8,
+                        "Amount": 60
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 200
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 892,
+                        "Male": 892,
+                        "Count": 5
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 10793,
+                        "Male": 10793,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 1617,
+        "Name": "Passing Notes",
+        "Description": "[n330] is sure he knows what the problem with the [i879] is. He has given you his notes, which you need to give to [n331] for comment.",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 1617,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1616,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 330,
+                "Dialog": 6551,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "Take"
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1617,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 331,
+                "Dialog": 6552,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 2355
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 8,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 200
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 10792,
+                        "Male": 10792,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 1618,
+        "Name": "The Fix-ulator? No, Fix-itnow!",
+        "Description": "[n331] has a gadget called the [i884] but he thinks he needs an upgraded version to be able to fix the [i879]. Collect 8 [i1273], 25 [i1501] and 10 [i1517] to make a [i885], 25 [i1187] and 3 [i1276] to make [i886]. You can make these items by collecting the materials and then right-clicking on the materials to combine the respective items. Finally, combine the [i885], [i886] and [i884] to make the [i887].",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 1618,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1617,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 331,
+                "Dialog": 6554,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 887,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1618,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 330,
+                "Dialog": 6555,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 6850
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 8,
+                        "Amount": 100
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 400
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 10794,
+                        "Male": 10794,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 1619,
+        "Name": "Third Time\u0027s a Charm",
+        "Description": "With the [i887] attached to the [i879], [n330] is really, really, REALLY 100% sure that it will work.",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 1619,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1618,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 330,
+                "Dialog": 6557,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 0 \u0022Eat the [i888]\u0022"
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1619,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 330,
+                "Dialog": 6558,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 3600
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 8,
+                        "Amount": 60
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 200
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 893,
+                        "Male": 893,
+                        "Count": 2
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 10793,
+                        "Male": 10793,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 1620,
+        "Name": "Boo!",
+        "Description": "[n333] met the most interesting ghost at the [p102] and he wants you to meet him too.",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 1620,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1619,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 333,
+                "Dialog": 6560,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "Talk"
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1620,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 339,
+                "Dialog": 6561,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 10000
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 8,
+                        "Amount": 10
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 420
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 10792,
+                        "Male": 10792,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 1621,
+        "Name": "Pearly Caper",
+        "Description": "The [n333] is having problems with the naughty [m259]s in the [p102]. They keep taking the [i1188] when the [n333] told them not to. Very, very naughty! Retrieve 5 [i1188] from the [m259]s.",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 1621,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1620,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 333,
+                "Dialog": 6563,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 1188,
+                        "Count": 5
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1621,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 333,
+                "Dialog": 6564,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 11400
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 8,
+                        "Amount": 30
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 550
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 10795,
+                        "Male": 10795,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 1622,
+        "Name": "Likes the Stones",
+        "Description": "The [n339] wants to keep the [n259] happy by giving them different stones. The ghosts are being cute by not telling the [n339] exactly what they want because they like to play games. Instead, they give him riddles. This time, [n340] was able to figure out that they want a [i1546]. Luckily, they can be found from the Loess Rock in the [p102]. Mine 8 and give it to [n340].",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 1622,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1621,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 339,
+                "Dialog": 6566,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 1546,
+                        "Count": 8
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1622,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 340,
+                "Dialog": 6567,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 11000
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 8,
+                        "Amount": 50
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 700
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 10793,
+                        "Male": 10793,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 1623,
+        "Name": "The Lost Tokens.",
+        "Description": "[n335] was playing in the snow area south of  [p14] earlier. Unfortunately, she dropped her  Tokens. She\u0027s sad because she cannot play in the [p103] without her Tokens.  Make your way to the [p99], [p100] and [p101] and retrieve her tokens. They\u0027re probably frozen now so be careful!",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 1623,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1601,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 335,
+                "Dialog": 6569,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 894,
+                        "Count": 30
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1623,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 335,
+                "Dialog": 6570,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 29457
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 8,
+                        "Amount": 50
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 450
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 10794,
+                        "Male": 10794,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 1624,
+        "Name": "It\u0027s Snow Joke!",
+        "Description": "Before you go to the snowy areas and look for [n335]\u0027s tokens, you\u0027ll need a pair of warm mittens to make searching the snow possible. Without it, you\u0027ll never be able to find the Tokens. You will need 10 [i1503]. When you have the required items, return to [n331].",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 1624,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1623,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 335,
+                "Dialog": 6572,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 1503,
+                        "Count": 10
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1624,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 331,
+                "Dialog": 6573,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 12676
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 8,
+                        "Amount": 60
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 750
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 895,
+                        "Male": 895,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 10795,
+                        "Male": 10795,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 1625,
+        "Name": "Numb3rz",
+        "Description": "Tell [n330] about Numb3rz.",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 1625,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1624,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 330,
+                "Dialog": 6575,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 1625,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 330,
+                "Dialog": 6576,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 17115
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 8,
+                        "Amount": 30
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 350
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 10792,
+                        "Male": 10792,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 1626,
+        "Name": "We\u0027ll Just Need a Few Things",
+        "Description": "According to [n330], [n341] was built to keep the snowy areas surrounding [p14] so folks can travel around and explore. He needs to be rebuilt so you can access [p100] and [p101]. Go to the [p97] and the [p99] and collect 10 [i1508], 8 [i1514], 5 [i1534] and 3 [i1273]. ",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 1626,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1625,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 330,
+                "Dialog": 6578,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 1508,
+                        "Count": 10
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 1514,
+                        "Count": 8
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 1534,
+                        "Count": 5
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 1273,
+                        "Count": 3
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1626,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 330,
+                "Dialog": 6579,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 28194
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 8,
+                        "Amount": 70
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 350
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 10793,
+                        "Male": 10793,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 1627,
+        "Name": "Bubbles For Robots?",
+        "Description": "[n330] requires something called a Giant Life Bubble. You can make a [i897] by collecting 10 [i898] from soil. Sanrio Land is so bursting with life that you will spot [i898] easily once you are near them. Head to the [p99] and collect [i898]s. When you have found 10 [i898], combine them with 5 [i1534] that you get from Sapphire Rocks to make a [i897].",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 1627,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1626,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 330,
+                "Dialog": 6581,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 897,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1627,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 330,
+                "Dialog": 6582,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 22870
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 8,
+                        "Amount": 40
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 400
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 10793,
+                        "Male": 10793,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 1628,
+        "Name": "Positronic Bubble Repair Kit",
+        "Description": "[n330]\u0027s latest invention, the [i899], will surely fix [n341]. With the robot fixed, you will now be able to access [p100] and [p101] and continue looking for [n335]\u0027s missing Tokens. ",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 1628,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1627,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 330,
+                "Dialog": 6584,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "Give"
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1628,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 341,
+                "Dialog": 6585,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 16000
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 8,
+                        "Amount": 75
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 200
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 10792,
+                        "Male": 10792,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 1629,
+        "Name": "Here We Go Again...",
+        "Description": "[n327] hasn\u0027t heard a peep from [n330], and he\u0027s been seeing weird things. When the lab is quiet and strange things happen, it usually means that [n330] is up to something wacky again.",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 1629,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1619,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 327,
+                "Dialog": 6587,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "Talk to [n330]"
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1629,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 330,
+                "Dialog": 6588,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 18290
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 8,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 150
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 10791,
+                        "Male": 10791,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 1630,
+        "Name": "Double Trouble",
+        "Description": "Strange things are happening in [p14]. [n327]\u0027s been seeing weird stuff and he think that [n330] is up to something wacky again. ",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 1630,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1629,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 327,
+                "Dialog": 6590,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 0 \u0022See what [n330] is going to do\u0022"
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1630,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 330,
+                "Dialog": 6591,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 20000
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 8,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 200
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 10791,
+                        "Male": 10791,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 1631,
+        "Name": "More Fritter",
+        "Description": "[n330]\u0027s curiously uncontrollable hunger is acting up again. Go ask [n329] for a fritter and bring it to [n330].",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 1631,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1630,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 330,
+                "Dialog": 6593,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 877,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1631,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 330,
+                "Dialog": 6594,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 10000
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 8,
+                        "Amount": 5
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 200
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 10791,
+                        "Male": 10791,
+                        "Count": 1
+                    }
+                ]
+            },
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 877,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1631,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 330,
+                "Dialog": 6595,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 10000
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 8,
+                        "Amount": 5
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 200
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 10791,
+                        "Male": 10791,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 1632,
+        "Name": "The Illusionizer\u0027s Broken!",
+        "Description": "[n330] says something went wrong with the [i900] and he thinks that the it did more than just copy [n329]\u0027s fritter\u2026 it copied a whole bunch of different items! The illusions are all over [p14], causing chaos and confusion! Walk around [p14] and dispel all the illusions by touching them.",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 1632,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1631,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 330,
+                "Dialog": 6597,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 0 \u0022Dispel the Blackberry illusion\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 1 \u0022Dispel the Raspberry illusion\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 2 \u0022Dispel the Persimmon illusion\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 3 \u0022Dispel the Pomegranate illusion\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 4 \u0022Dispel the Empire State Building illusion\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 5 \u0022Dispel Hello Kitty illusion\u0022"
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1632,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 330,
+                "Dialog": 6598,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 22730
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 8,
+                        "Amount": 100
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 500
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 10791,
+                        "Male": 10794,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 1633,
+        "Name": "One Wacky Scientist is Enough",
+        "Description": "[n330] wants you to thank [n327] for (possibly) saving the known universe. If [n327] hadn\u0027t asked you to go see [n330], who knows what might have happened?",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 1633,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1632,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 330,
+                "Dialog": 6600,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 1633,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 327,
+                "Dialog": 6601,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 11660
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 8,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 200
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 10791,
+                        "Male": 10791,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 1634,
+        "Name": "Missing Tunes",
+        "Description": "[n342] was exploring the [p98] with her other sisters but when she left the area, she noticed that everyone else didn\u2019t go out with her. She thinks a big, bad monster took them and she\u2019s afraid to go back. ",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 1634,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1633,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 342,
+                "Dialog": 6611,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 0 \u0022find [n343]\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 1 \u0022find [n344]\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 2 \u0022find [n345]\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 3 \u0022find [n346]\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 4 \u0022find [n347]\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 5 \u0022find [n348]\u0022"
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1634,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 342,
+                "Dialog": 6612,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 24195
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 8,
+                        "Amount": 100
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 600
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 10794,
+                        "Male": 10794,
+                        "Count": 1
+                    }
+                ]
+            },
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 0 \u0022find [n343]\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 1 \u0022find [n344]\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 2 \u0022find [n345]\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 3 \u0022find [n346]\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 4 \u0022find [n347]\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 5 \u0022find [n348]\u0022"
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1634,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 342,
+                "Dialog": 6613,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 24195
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 8,
+                        "Amount": 100
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 600
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 10794,
+                        "Male": 10794,
+                        "Count": 1
+                    }
+                ]
+            },
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 0 \u0022find [n343]\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 1 \u0022find [n344]\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 2 \u0022find [n345]\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 3 \u0022find [n346]\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 4 \u0022find [n347]\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 5 \u0022find [n348]\u0022"
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1634,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 342,
+                "Dialog": 6614,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 24195
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 8,
+                        "Amount": 100
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 600
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 10794,
+                        "Male": 10794,
+                        "Count": 1
+                    }
+                ]
+            },
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 0 \u0022find [n343]\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 1 \u0022find [n344]\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 2 \u0022find [n345]\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 3 \u0022find [n346]\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 4 \u0022find [n347]\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 5 \u0022find [n348]\u0022"
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1634,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 342,
+                "Dialog": 6615,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 24195
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 8,
+                        "Amount": 100
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 600
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 10794,
+                        "Male": 10794,
+                        "Count": 1
+                    }
+                ]
+            },
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 0 \u0022find [n343]\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 1 \u0022find [n344]\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 2 \u0022find [n345]\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 3 \u0022find [n346]\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 4 \u0022find [n347]\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 5 \u0022find [n348]\u0022"
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1634,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 342,
+                "Dialog": 6616,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 24195
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 8,
+                        "Amount": 100
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 600
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 10794,
+                        "Male": 10794,
+                        "Count": 1
+                    }
+                ]
+            },
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 0 \u0022find [n343]\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 1 \u0022find [n344]\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 2 \u0022find [n345]\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 3 \u0022find [n346]\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 4 \u0022find [n347]\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 5 \u0022find [n348]\u0022"
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1634,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 342,
+                "Dialog": 6617,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 24195
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 8,
+                        "Amount": 100
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 600
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 10794,
+                        "Male": 10794,
+                        "Count": 1
+                    }
+                ]
+            },
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 0 \u0022find [n343]\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 1 \u0022find [n344]\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 2 \u0022find [n345]\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 3 \u0022find [n346]\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 4 \u0022find [n347]\u0022"
+                    },
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 5 \u0022find [n348]\u0022"
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1634,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 342,
+                "Dialog": 6618,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 24195
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 8,
+                        "Amount": 100
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 600
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 10794,
+                        "Male": 10794,
+                        "Count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 1635,
+        "Name": "The Secret Shortcut",
+        "Description": "The [n374] in [p8] is thrilled that you\u0027re going to visit [p14]. He knows a secret shortcut that will directly take you to [p106]. From there, go north, pass through [p105] and on to [p14]. Once you reach [p14], talk to [n326] so you can be formally welcomed.",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 1635,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8828,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 374,
+                "Dialog": 6631,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "\u0022Take the Secret Shortcut on the top right area of [p8] and find your way to [p14].\u0022"
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1635,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 326,
+                "Dialog": 6632,
+                "Rewards": [
+                    {
+                        "Type": "Friendship",
+                        "Village": 8,
+                        "Amount": 10
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 100
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 1636,
+        "Name": "To Tokyo!",
+        "Description": "The [n375] in [p22] wants you to visit [p14] and enjoy all the sights, sounds and colors. Take the path to [p106], north to [n105] and then straight to [p14]. Find [n326] so you can be formally welcomed.",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 1636,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 8828,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 375,
+                "Dialog": 6634,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "\u0022Find your way to [p14] through [p106]\u0022"
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1635,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 326,
+                "Dialog": 6635,
+                "Rewards": [
+                    {
+                        "Type": "Friendship",
+                        "Village": 8,
+                        "Amount": 10
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 100
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 1637,
+        "Name": "The Capsule Machine",
+        "Description": "[n338] is so excited for you! Being new in the [p103], you\u0027ll have to know how things work around here. Look for any Capsule Machine and use the 5 tokens he gave you to start playing.  The Capsule Machine requires more luck than skill. Don\u0027t get discouraged, there are a lot of great items in the Capsule Machines!",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 1637,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1636,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 338,
+                "Dialog": 6649,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 0 \u0022Play the Capsule Machine\u0022"
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1637,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 338,
+                "Dialog": 6650,
+                "Rewards": [
+                    {
+                        "Type": "Friendship",
+                        "Village": 8,
+                        "Amount": 10
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 50
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": 1638,
+        "Name": "The UFO Catcher",
+        "Description": "Cinnamon thinks that it\u0027s time for you to try out the UFO Catcher. Use the 10 Game Center Tokens he gave you on the UFO Catcher. Directions are pretty simple: Pick any ball you want by moving the mechanical arm. You can only move horizontally once and also once vertically. Once you\u0027ve picked your desired location, press the big button for the arm to go down and grab the ball. If you\u0027re lucky enough to grab one, the arm will automatically drop the ball into the chute. If you\u0027re not able to catch a prize, you will get Game Center Tickets that you can use to spend on items sold by the [n384]. Good luck!",
+        "Start": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 1638,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1637,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 338,
+                "Dialog": 6652,
+                "Rewards": []
+            }
+        ],
+        "End": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Idk",
+                        "Text": "qflag 0 \u0022Play the UFO Catcher\u0022"
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1638,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 338,
+                "Dialog": 6653,
+                "Rewards": [
+                    {
+                        "Type": "Friendship",
+                        "Village": 8,
+                        "Amount": 10
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 50
                     }
                 ]
             }
