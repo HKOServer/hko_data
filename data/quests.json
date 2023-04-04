@@ -3958,6 +3958,10 @@
             {
                 "Requirements": [
                     {
+                        "Type": "Idk",
+                        "Text": "Has Broken Dialog Trigger"
+                    },
+                    {
                         "Type": "Quest",
                         "Id": 152,
                         "Flags": 1

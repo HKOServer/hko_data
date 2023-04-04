@@ -1,13 +1,5 @@
 // broken or uncompleteable quests
-let bad = new Set([
-    1008,
-    742,
-    763,
-    737,
-    747,
-    117,
-    152
-]);
+let bad = new Set([]);
 
 // completeable quests
 let good = new Set([
@@ -34,6 +26,10 @@ let good = new Set([
     746,
     772,
     762,
+    742,
+    743,
+    771,
+    766,
 
     // sanrio harbour
     101,
@@ -54,7 +50,9 @@ let good = new Set([
     116,
 
     // Florapolis
-    151
+    151,
+    1013,
+    1014
 ]);
 
 let quests = await(await fetch("./data/quests.json")).json();
@@ -63,13 +61,18 @@ console.log(quests);
 let str = "digraph G {\nbgcolor=transparent\n"
 
 for (const quest of quests) {
+    let color = "white";
+
     if (bad.has(quest.Id)) {
-        str += `n${quest.Id} [shape=record label="${quest.Name}" style=filled fillcolor=red3]\n`;
+        color = "red3"; // manual not completable
     } else if (good.has(quest.Id)) {
-        str += `n${quest.Id} [shape=record label="${quest.Name}" style=filled fillcolor=green3]\n`;
-    } else {
-        str += `n${quest.Id} [shape=record label="${quest.Name}" style=filled fillcolor=white]\n`;
+        color = "green3"; // tested completable
+    } else if (quest.End.length == 0 || quest.End.some(x => x.Requirements.some(y => y.Type == "Idk"))) {
+        color = "red3"; // cannot meet requirements
+    } else if (quest.Start.some(x => x.Requirements.some(y => y.Type == "Idk"))) {
+        color = "yellow3"; // cannot start quest
     }
+    str += `n${quest.Id} [shape=record label="${quest.Name}" style=filled fillcolor=${color}]\n`;
 }
 
 let arrows = new Set();
