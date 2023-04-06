@@ -3906,7 +3906,374 @@
     {
         "Id": 41,
         "Name": "Middle Secret Peak",
-        "Mobs": null
+        "Mobs": [
+            {
+                "MobId": 33,
+                "X": 140,
+                "Y": 978,
+                "Cheer": false
+            },
+            {
+                "MobId": 32,
+                "X": 473,
+                "Y": 1103,
+                "Cheer": false
+            },
+            {
+                "MobId": 32,
+                "X": 527,
+                "Y": 1424,
+                "Cheer": false
+            },
+            {
+                "MobId": 32,
+                "X": 854,
+                "Y": 1224,
+                "Cheer": false
+            },
+            {
+                "MobId": 32,
+                "X": 1180,
+                "Y": 1469,
+                "Cheer": false
+            },
+            {
+                "MobId": 32,
+                "X": 624,
+                "Y": 460,
+                "Cheer": false
+            },
+            {
+                "MobId": 32,
+                "X": 1190,
+                "Y": 712,
+                "Cheer": false
+            },
+            {
+                "MobId": 32,
+                "X": 1597,
+                "Y": 286,
+                "Cheer": false
+            },
+            {
+                "MobId": 32,
+                "X": 2002,
+                "Y": 542,
+                "Cheer": false
+            },
+            {
+                "MobId": 32,
+                "X": 2313,
+                "Y": 201,
+                "Cheer": false
+            },
+            {
+                "MobId": 32,
+                "X": 2771,
+                "Y": 338,
+                "Cheer": false
+            },
+            {
+                "MobId": 32,
+                "X": 2670,
+                "Y": 792,
+                "Cheer": false
+            },
+            {
+                "MobId": 32,
+                "X": 3620,
+                "Y": 581,
+                "Cheer": false
+            },
+            {
+                "MobId": 32,
+                "X": 3412,
+                "Y": 805,
+                "Cheer": false
+            },
+            {
+                "MobId": 39,
+                "X": 3479,
+                "Y": 4082,
+                "Cheer": false
+            },
+            {
+                "MobId": 38,
+                "X": 3220,
+                "Y": 4156,
+                "Cheer": false
+            },
+            {
+                "MobId": 38,
+                "X": 3039,
+                "Y": 3995,
+                "Cheer": false
+            },
+            {
+                "MobId": 38,
+                "X": 2637,
+                "Y": 4038,
+                "Cheer": false
+            },
+            {
+                "MobId": 38,
+                "X": 2407,
+                "Y": 3873,
+                "Cheer": false
+            },
+            {
+                "MobId": 38,
+                "X": 2244,
+                "Y": 4180,
+                "Cheer": false
+            },
+            {
+                "MobId": 38,
+                "X": 1861,
+                "Y": 4029,
+                "Cheer": false
+            },
+            {
+                "MobId": 38,
+                "X": 2729,
+                "Y": 4488,
+                "Cheer": false
+            },
+            {
+                "MobId": 38,
+                "X": 2197,
+                "Y": 4453,
+                "Cheer": false
+            },
+            {
+                "MobId": 38,
+                "X": 1724,
+                "Y": 4642,
+                "Cheer": false
+            },
+            {
+                "MobId": 38,
+                "X": 1376,
+                "Y": 4386,
+                "Cheer": false
+            },
+            {
+                "MobId": 38,
+                "X": 1012,
+                "Y": 4196,
+                "Cheer": false
+            },
+            {
+                "MobId": 38,
+                "X": 463,
+                "Y": 3968,
+                "Cheer": false
+            },
+            {
+                "MobId": 38,
+                "X": 1622,
+                "Y": 3592,
+                "Cheer": false
+            },
+            {
+                "MobId": 38,
+                "X": 1001,
+                "Y": 3474,
+                "Cheer": false
+            },
+            {
+                "MobId": 32,
+                "X": 1352,
+                "Y": 1211,
+                "Cheer": false
+            },
+            {
+                "MobId": 32,
+                "X": 1714,
+                "Y": 1039,
+                "Cheer": false
+            },
+            {
+                "MobId": 32,
+                "X": 1978,
+                "Y": 1249,
+                "Cheer": false
+            },
+            {
+                "MobId": 32,
+                "X": 2191,
+                "Y": 902,
+                "Cheer": false
+            },
+            {
+                "MobId": 32,
+                "X": 2131,
+                "Y": 1275,
+                "Cheer": false
+            },
+            {
+                "MobId": 32,
+                "X": 2912,
+                "Y": 1194,
+                "Cheer": false
+            },
+            {
+                "MobId": 32,
+                "X": 3050,
+                "Y": 1659,
+                "Cheer": false
+            },
+            {
+                "MobId": 32,
+                "X": 3527,
+                "Y": 1605,
+                "Cheer": false
+            },
+            {
+                "MobId": 32,
+                "X": 3661,
+                "Y": 1145,
+                "Cheer": false
+            },
+            {
+                "MobId": 32,
+                "X": 3349,
+                "Y": 2052,
+                "Cheer": false
+            },
+            {
+                "MobId": 32,
+                "X": 2899,
+                "Y": 1945,
+                "Cheer": false
+            },
+            {
+                "MobId": 32,
+                "X": 2652,
+                "Y": 2184,
+                "Cheer": false
+            },
+            {
+                "MobId": 32,
+                "X": 2613,
+                "Y": 1502,
+                "Cheer": false
+            },
+            {
+                "MobId": 32,
+                "X": 2270,
+                "Y": 1827,
+                "Cheer": false
+            },
+            {
+                "MobId": 32,
+                "X": 1869,
+                "Y": 1617,
+                "Cheer": false
+            },
+            {
+                "MobId": 32,
+                "X": 1655,
+                "Y": 2043,
+                "Cheer": false
+            },
+            {
+                "MobId": 32,
+                "X": 1191,
+                "Y": 1820,
+                "Cheer": false
+            },
+            {
+                "MobId": 32,
+                "X": 490,
+                "Y": 1677,
+                "Cheer": false
+            },
+            {
+                "MobId": 32,
+                "X": 497,
+                "Y": 2141,
+                "Cheer": false
+            },
+            {
+                "MobId": 32,
+                "X": 1072,
+                "Y": 2510,
+                "Cheer": false
+            },
+            {
+                "MobId": 38,
+                "X": 499,
+                "Y": 3287,
+                "Cheer": false
+            },
+            {
+                "MobId": 38,
+                "X": 417,
+                "Y": 2742,
+                "Cheer": false
+            },
+            {
+                "MobId": 38,
+                "X": 1012,
+                "Y": 3005,
+                "Cheer": false
+            },
+            {
+                "MobId": 38,
+                "X": 1692,
+                "Y": 3092,
+                "Cheer": false
+            },
+            {
+                "MobId": 38,
+                "X": 1983,
+                "Y": 3391,
+                "Cheer": false
+            },
+            {
+                "MobId": 38,
+                "X": 2509,
+                "Y": 3603,
+                "Cheer": false
+            },
+            {
+                "MobId": 38,
+                "X": 2128,
+                "Y": 2786,
+                "Cheer": false
+            },
+            {
+                "MobId": 32,
+                "X": 1726,
+                "Y": 2480,
+                "Cheer": false
+            },
+            {
+                "MobId": 32,
+                "X": 3248,
+                "Y": 2518,
+                "Cheer": false
+            },
+            {
+                "MobId": 38,
+                "X": 2758,
+                "Y": 2799,
+                "Cheer": false
+            },
+            {
+                "MobId": 38,
+                "X": 321,
+                "Y": 2449,
+                "Cheer": false
+            },
+            {
+                "MobId": 32,
+                "X": 3548,
+                "Y": 143,
+                "Cheer": false
+            }
+        ]
     },
     {
         "Id": 42,
@@ -3916,7 +4283,290 @@
     {
         "Id": 43,
         "Name": "South Secret Peak",
-        "Mobs": null
+        "Mobs": [
+            {
+                "MobId": 91,
+                "X": 968,
+                "Y": 3526,
+                "Cheer": false
+            },
+            {
+                "MobId": 26,
+                "X": 4509,
+                "Y": 371,
+                "Cheer": false
+            },
+            {
+                "MobId": 25,
+                "X": 4155,
+                "Y": 71,
+                "Cheer": false
+            },
+            {
+                "MobId": 25,
+                "X": 3661,
+                "Y": 209,
+                "Cheer": false
+            },
+            {
+                "MobId": 25,
+                "X": 2597,
+                "Y": 724,
+                "Cheer": false
+            },
+            {
+                "MobId": 25,
+                "X": 2180,
+                "Y": 516,
+                "Cheer": false
+            },
+            {
+                "MobId": 25,
+                "X": 2530,
+                "Y": 1058,
+                "Cheer": false
+            },
+            {
+                "MobId": 25,
+                "X": 2902,
+                "Y": 1270,
+                "Cheer": false
+            },
+            {
+                "MobId": 25,
+                "X": 3257,
+                "Y": 1050,
+                "Cheer": false
+            },
+            {
+                "MobId": 25,
+                "X": 3206,
+                "Y": 665,
+                "Cheer": false
+            },
+            {
+                "MobId": 25,
+                "X": 2374,
+                "Y": 1438,
+                "Cheer": false
+            },
+            {
+                "MobId": 25,
+                "X": 2051,
+                "Y": 1630,
+                "Cheer": false
+            },
+            {
+                "MobId": 25,
+                "X": 1741,
+                "Y": 1170,
+                "Cheer": false
+            },
+            {
+                "MobId": 25,
+                "X": 1418,
+                "Y": 942,
+                "Cheer": false
+            },
+            {
+                "MobId": 25,
+                "X": 1244,
+                "Y": 328,
+                "Cheer": false
+            },
+            {
+                "MobId": 23,
+                "X": 1038,
+                "Y": 1432,
+                "Cheer": false
+            },
+            {
+                "MobId": 23,
+                "X": 1490,
+                "Y": 1703,
+                "Cheer": false
+            },
+            {
+                "MobId": 23,
+                "X": 952,
+                "Y": 1832,
+                "Cheer": false
+            },
+            {
+                "MobId": 23,
+                "X": 644,
+                "Y": 2175,
+                "Cheer": false
+            },
+            {
+                "MobId": 23,
+                "X": 1207,
+                "Y": 2350,
+                "Cheer": false
+            },
+            {
+                "MobId": 23,
+                "X": 1714,
+                "Y": 2240,
+                "Cheer": false
+            },
+            {
+                "MobId": 23,
+                "X": 1524,
+                "Y": 2687,
+                "Cheer": false
+            },
+            {
+                "MobId": 23,
+                "X": 750,
+                "Y": 2884,
+                "Cheer": false
+            },
+            {
+                "MobId": 23,
+                "X": 991,
+                "Y": 3080,
+                "Cheer": false
+            },
+            {
+                "MobId": 23,
+                "X": 653,
+                "Y": 3270,
+                "Cheer": false
+            },
+            {
+                "MobId": 23,
+                "X": 652,
+                "Y": 3542,
+                "Cheer": false
+            },
+            {
+                "MobId": 23,
+                "X": 1893,
+                "Y": 3045,
+                "Cheer": false
+            },
+            {
+                "MobId": 23,
+                "X": 2292,
+                "Y": 2321,
+                "Cheer": false
+            },
+            {
+                "MobId": 23,
+                "X": 2745,
+                "Y": 2392,
+                "Cheer": false
+            },
+            {
+                "MobId": 23,
+                "X": 3072,
+                "Y": 3011,
+                "Cheer": false
+            },
+            {
+                "MobId": 25,
+                "X": 3540,
+                "Y": 1479,
+                "Cheer": false
+            },
+            {
+                "MobId": 25,
+                "X": 4482,
+                "Y": 641,
+                "Cheer": false
+            },
+            {
+                "MobId": 25,
+                "X": 4613,
+                "Y": 884,
+                "Cheer": false
+            },
+            {
+                "MobId": 25,
+                "X": 4310,
+                "Y": 1082,
+                "Cheer": false
+            },
+            {
+                "MobId": 25,
+                "X": 4741,
+                "Y": 1376,
+                "Cheer": false
+            },
+            {
+                "MobId": 25,
+                "X": 4565,
+                "Y": 1705,
+                "Cheer": false
+            },
+            {
+                "MobId": 23,
+                "X": 3332,
+                "Y": 2358,
+                "Cheer": false
+            },
+            {
+                "MobId": 23,
+                "X": 3242,
+                "Y": 1796,
+                "Cheer": false
+            },
+            {
+                "MobId": 23,
+                "X": 3697,
+                "Y": 1936,
+                "Cheer": false
+            },
+            {
+                "MobId": 23,
+                "X": 4352,
+                "Y": 3036,
+                "Cheer": false
+            },
+            {
+                "MobId": 23,
+                "X": 4225,
+                "Y": 2652,
+                "Cheer": false
+            },
+            {
+                "MobId": 25,
+                "X": 4238,
+                "Y": 1973,
+                "Cheer": false
+            },
+            {
+                "MobId": 25,
+                "X": 3058,
+                "Y": 332,
+                "Cheer": false
+            },
+            {
+                "MobId": 25,
+                "X": 3541,
+                "Y": 656,
+                "Cheer": false
+            },
+            {
+                "MobId": 25,
+                "X": 4183,
+                "Y": 726,
+                "Cheer": false
+            },
+            {
+                "MobId": 25,
+                "X": 4172,
+                "Y": 395,
+                "Cheer": false
+            },
+            {
+                "MobId": 25,
+                "X": 3532,
+                "Y": 1027,
+                "Cheer": false
+            }
+        ]
     },
     {
         "Id": 44,
@@ -5545,7 +6195,212 @@
     {
         "Id": 52,
         "Name": "The Prairie",
-        "Mobs": null
+        "Mobs": [
+            {
+                "MobId": 36,
+                "X": 1020,
+                "Y": 3473,
+                "Cheer": false
+            },
+            {
+                "MobId": 36,
+                "X": 1381,
+                "Y": 3563,
+                "Cheer": false
+            },
+            {
+                "MobId": 36,
+                "X": 1801,
+                "Y": 3299,
+                "Cheer": false
+            },
+            {
+                "MobId": 36,
+                "X": 296,
+                "Y": 2944,
+                "Cheer": false
+            },
+            {
+                "MobId": 36,
+                "X": 1635,
+                "Y": 2713,
+                "Cheer": false
+            },
+            {
+                "MobId": 36,
+                "X": 987,
+                "Y": 2744,
+                "Cheer": false
+            },
+            {
+                "MobId": 36,
+                "X": 127,
+                "Y": 1553,
+                "Cheer": false
+            },
+            {
+                "MobId": 36,
+                "X": 401,
+                "Y": 2563,
+                "Cheer": false
+            },
+            {
+                "MobId": 36,
+                "X": 131,
+                "Y": 2066,
+                "Cheer": false
+            },
+            {
+                "MobId": 36,
+                "X": 2178,
+                "Y": 2956,
+                "Cheer": false
+            },
+            {
+                "MobId": 36,
+                "X": 1448,
+                "Y": 2556,
+                "Cheer": false
+            },
+            {
+                "MobId": 37,
+                "X": 836,
+                "Y": 1467,
+                "Cheer": false
+            },
+            {
+                "MobId": 36,
+                "X": 1945,
+                "Y": 2109,
+                "Cheer": false
+            },
+            {
+                "MobId": 36,
+                "X": 1718,
+                "Y": 1532,
+                "Cheer": false
+            },
+            {
+                "MobId": 36,
+                "X": 1257,
+                "Y": 1443,
+                "Cheer": false
+            },
+            {
+                "MobId": 58,
+                "X": 2117,
+                "Y": 956,
+                "Cheer": false
+            },
+            {
+                "MobId": 58,
+                "X": 1861,
+                "Y": 1309,
+                "Cheer": false
+            },
+            {
+                "MobId": 36,
+                "X": 1343,
+                "Y": 2131,
+                "Cheer": false
+            },
+            {
+                "MobId": 36,
+                "X": 833,
+                "Y": 1884,
+                "Cheer": false
+            },
+            {
+                "MobId": 36,
+                "X": 401,
+                "Y": 2191,
+                "Cheer": false
+            },
+            {
+                "MobId": 36,
+                "X": 355,
+                "Y": 1731,
+                "Cheer": false
+            },
+            {
+                "MobId": 58,
+                "X": 603,
+                "Y": 1399,
+                "Cheer": false
+            },
+            {
+                "MobId": 59,
+                "X": 497,
+                "Y": 43,
+                "Cheer": false
+            },
+            {
+                "MobId": 58,
+                "X": 879,
+                "Y": 1211,
+                "Cheer": false
+            },
+            {
+                "MobId": 58,
+                "X": 880,
+                "Y": 724,
+                "Cheer": false
+            },
+            {
+                "MobId": 58,
+                "X": 1295,
+                "Y": 885,
+                "Cheer": false
+            },
+            {
+                "MobId": 58,
+                "X": 1503,
+                "Y": 499,
+                "Cheer": false
+            },
+            {
+                "MobId": 58,
+                "X": 2307,
+                "Y": 747,
+                "Cheer": false
+            },
+            {
+                "MobId": 58,
+                "X": 2028,
+                "Y": 294,
+                "Cheer": false
+            },
+            {
+                "MobId": 58,
+                "X": 1133,
+                "Y": 158,
+                "Cheer": false
+            },
+            {
+                "MobId": 58,
+                "X": 617,
+                "Y": 484,
+                "Cheer": false
+            },
+            {
+                "MobId": 58,
+                "X": 486,
+                "Y": 289,
+                "Cheer": false
+            },
+            {
+                "MobId": 58,
+                "X": 185,
+                "Y": 1451,
+                "Cheer": false
+            },
+            {
+                "MobId": 58,
+                "X": 1152,
+                "Y": 520,
+                "Cheer": false
+            }
+        ]
     },
     {
         "Id": 55,
@@ -6414,7 +7269,74 @@
     {
         "Id": 66,
         "Name": "Celestial Plain",
-        "Mobs": null
+        "Mobs": [
+            {
+                "MobId": 95,
+                "X": 198,
+                "Y": 1850,
+                "Cheer": false
+            },
+            {
+                "MobId": 71,
+                "X": 2117,
+                "Y": 1865,
+                "Cheer": false
+            },
+            {
+                "MobId": 70,
+                "X": 2115,
+                "Y": 1519,
+                "Cheer": false
+            },
+            {
+                "MobId": 70,
+                "X": 2046,
+                "Y": 1108,
+                "Cheer": false
+            },
+            {
+                "MobId": 70,
+                "X": 1475,
+                "Y": 1195,
+                "Cheer": false
+            },
+            {
+                "MobId": 70,
+                "X": 2312,
+                "Y": 559,
+                "Cheer": false
+            },
+            {
+                "MobId": 70,
+                "X": 1767,
+                "Y": 550,
+                "Cheer": false
+            },
+            {
+                "MobId": 70,
+                "X": 1165,
+                "Y": 810,
+                "Cheer": false
+            },
+            {
+                "MobId": 70,
+                "X": 795,
+                "Y": 1015,
+                "Cheer": false
+            },
+            {
+                "MobId": 70,
+                "X": 937,
+                "Y": 244,
+                "Cheer": false
+            },
+            {
+                "MobId": 70,
+                "X": 1378,
+                "Y": 1739,
+                "Cheer": false
+            }
+        ]
     },
     {
         "Id": 69,
