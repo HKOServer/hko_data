@@ -27,8 +27,7 @@ let id = document.getElementById("id");
 let name = document.getElementById("name");
 let desc = document.getElementById("desc");
 let mini = document.getElementById("minigame");
-let start = document.getElementById("start");
-let end = document.getElementById("end");
+let sections = document.getElementById("sections");
 
 function npcText(id) {
     let npc = npcs.get(id);
@@ -137,6 +136,12 @@ function renderRewards(rewards) {
         let sub = document.createElement("div");
 
         switch (item.Type) {
+            case "StartQuest":
+                sub.innerText = `Starts this quest`;
+                break;
+            case "EndQuest":
+                sub.innerText = `Ends this quest`;
+                break
             case "Exp":
                 sub.innerText = `${item.Amount} HKO Exp`;
                 break;
@@ -166,6 +171,9 @@ function renderRewards(rewards) {
                 break;
             case "Dream":
                 sub.innerText = `Dream ${item.Id}`;
+                break;
+            case "Flag":
+                sub.innerText = `Sets Flag ${item.Id}`;
                 break;
             default:
                 debugger
@@ -214,6 +222,15 @@ function renderSub(item) {
                 sub.innerHTML = `Quest <span class="textItem" title="${req.Id}">${q.Name ?? q.Id}</span> ${str.join(" or ")}`;
                 break;
             }
+            case "NotFlag":
+                sub.innerText = `Flag ${req.Id} is not set`;
+                break;
+            case "Flags":
+                sub.innerText = `Flags ${req.Ids.join(",")} have to be set`;
+                break;
+            default:
+                debugger;
+                break;
         }
 
         reqs.children[1].append(sub);
@@ -238,7 +255,6 @@ function update() {
     desc.innerHTML = renderText(el.Description);
     mini.innerText = JSON.stringify(el.Minigame) ?? "No"; // TODO: minigame names
 
-    start.replaceChildren(...el.Start.map(renderSub));
-    end.replaceChildren(...el.End.map(renderSub));
+    sections.replaceChildren(...el.Sections.map(renderSub));
 }
 update();

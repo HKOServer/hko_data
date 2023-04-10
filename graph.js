@@ -30,6 +30,12 @@ let good = new Set([
     743,
     771,
     766,
+    763,
+    756,
+    757,
+    758,
+    759,
+    737,
 
     // sanrio harbour
     101,
@@ -48,11 +54,28 @@ let good = new Set([
     114,
     115,
     116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
 
     // Florapolis
     151,
+    1012,
     1013,
-    1014
+    1014,
+    160,
+    1015,
+    162,
+    163,
+    164,
+    165,
+    1017,
+    1018
 ]);
 
 let quests = await(await fetch("./data/quests.json")).json();
@@ -67,10 +90,8 @@ for (const quest of quests) {
         color = "red3"; // manual not completable
     } else if (good.has(quest.Id)) {
         color = "green3"; // tested completable
-    } else if (quest.End.length == 0 || quest.End.some(x => x.Requirements.some(y => y.Type == "Idk"))) {
+    } else if (quest.Sections.length == 0 || quest.Sections.some(x => x.Requirements.some(y => y.Type == "Idk"))) {
         color = "red3"; // cannot meet requirements
-    } else if (quest.Start.some(x => x.Requirements.some(y => y.Type == "Idk"))) {
-        color = "yellow3"; // cannot start quest
     }
     str += `n${quest.Id} [shape=record label="${quest.Name}" style=filled fillcolor=${color}]\n`;
 }
@@ -78,10 +99,10 @@ for (const quest of quests) {
 let arrows = new Set();
 
 for (const quest of quests) {
-    for (const sub of quest.Start) {
+    for (const sub of quest.Sections) {
         for (const item of sub.Requirements) {
             if (item.Type == "Quest") {
-                if (item.Id == quest.Id && item.Flags == 1) continue;
+                if (item.Id == quest.Id && (item.Flags == 1 || item.Flags == 2)) continue;
 
                 arrows.add(`n${item.Id} -> n${quest.Id}\n`);
             }
