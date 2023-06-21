@@ -79,7 +79,6 @@ let good = new Set([
 ]);
 
 let quests = await(await fetch("./data/quests.json")).json();
-console.log(quests);
 
 let str = "digraph G {\nbgcolor=transparent\n"
 
@@ -129,6 +128,13 @@ document.body.append(button);
 
 viz.renderSVGElement(str)
     .then(function (element) {
+        element.addEventListener("mousedown", e => {
+            if (e.button == 1 && e.target.tagName == "text") {
+                let q = quests[parseInt(e.target.parentElement.id.substring(4)) - 1];
+                window.open(`./view.html#${q.Id}`)
+                e.preventDefault();
+            }
+        });
         document.body.appendChild(element);
     })
     .catch(error => {

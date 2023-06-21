@@ -18,6 +18,7 @@ for (const item of quests) {
 }
 dd.addEventListener("input", () => {
     selected = dd.selectedIndex;
+    location.hash = quests[selected].Id;
     update();
 });
 
@@ -28,6 +29,11 @@ let name = document.getElementById("name");
 let desc = document.getElementById("desc");
 let mini = document.getElementById("minigame");
 let sections = document.getElementById("sections");
+
+if (location.hash != "") {
+    let id = parseInt(location.hash.substring(1))
+    selected = dd.selectedIndex = quests.findIndex(x => x.Id == id);
+}
 
 function npcText(id) {
     let npc = npcs.get(id);
@@ -160,7 +166,7 @@ function renderRewards(rewards) {
                 break;
             case "Select": {
                 sub.style.border = "1px solid black";
-                sub.append("Select from:", ...renderRewards(item.Sub));
+                sub.append("Select from:", ...renderRewards(item.Sub.map(x => (x.Type = "Item", x))));
                 break;
             }
             case "Checkpoint":
