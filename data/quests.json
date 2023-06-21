@@ -3043,8 +3043,10 @@
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 0 \u0022Visit [p92] \u0022"
+                        "Type": "Flags",
+                        "Ids": [
+                            0
+                        ]
                     },
                     {
                         "Type": "GiveItem",
@@ -6165,16 +6167,12 @@
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 0 \u0022Investigate [p32]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 1 \u0022Investigate [p31]\u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 2 \u0022Investigate [p33]\u0022"
+                        "Type": "Flags",
+                        "Ids": [
+                            0,
+                            1,
+                            2
+                        ]
                     },
                     {
                         "Type": "Quest",
@@ -6244,7 +6242,7 @@
                         "Flags": 2
                     }
                 ],
-                "Npc": 33,
+                "Npc": 30,
                 "Dialog": 602,
                 "Rewards": [
                     {

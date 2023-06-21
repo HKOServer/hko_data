@@ -50,6 +50,7 @@ let good = new Set([
     111,
     112,
     1007,
+    1008,
     113,
     114,
     115,
@@ -75,7 +76,8 @@ let good = new Set([
     164,
     165,
     1017,
-    1018
+    1018,
+    167
 ]);
 
 let quests = await(await fetch("./data/quests.json")).json();
