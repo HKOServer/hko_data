@@ -6,6 +6,18 @@ let npcs = new Map((await(await fetch("./data/npcs.json")).json()).map(x => [x.I
 let mobs = new Map((await(await fetch("./data/mobs.json")).json()).map(x => [x.Id, x]));
 let items = new Map((await(await fetch("./data/items.json")).json()).map(x => [x.Id, x]));
 
+let villages = [
+    "???",
+    "SanrioHarbour", // 1
+    "Florapolis", // 2
+    "London", // 3
+    "Paris", // 4
+    "Beijing", // 5
+    "DreamCarnival", // 6
+    "NewYork", // 7
+    "Tokyo", // 8
+]
+
 quests.sort((a, b) => a.Id - b.Id);
 
 let dd = document.getElementById("dropDown");
@@ -162,7 +174,7 @@ function renderRewards(rewards) {
                 }
                 break;
             case "Friendship":
-                sub.innerText = `${item.Amount} ${item.Village} Friendship`;
+                sub.innerText = `${item.Amount} ${villages[item.Village]} Friendship`;
                 break;
             case "Select": {
                 sub.style.border = "1px solid black";
