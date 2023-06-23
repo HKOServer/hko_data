@@ -193,6 +193,9 @@ function renderRewards(rewards) {
             case "Flag":
                 sub.innerText = `Sets Flag ${item.Id}`;
                 break;
+            case "StartMinigame":
+                sub.innerText = `Starts Minigame`;
+                break;
             default:
                 debugger
                 break;

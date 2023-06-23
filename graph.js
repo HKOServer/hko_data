@@ -1,5 +1,7 @@
 // broken or uncompleteable quests
-let bad = new Set([]);
+let bad = new Set([
+    190
+]);
 
 // completeable quests
 let good = new Set([
@@ -73,11 +75,30 @@ let good = new Set([
     1015,
     162,
     163,
+    1016,
     164,
     165,
     1017,
     1018,
-    167
+    167,
+    168,
+    1019,
+    1020,
+    1021,
+    173,
+    174,
+    1022,
+    176,
+    1023,
+    179,
+    1024,
+    1025,
+    183,
+    184,
+    1026,
+    186,
+    187,
+    189,
 ]);
 
 let quests = await(await fetch("./data/quests.json")).json();
@@ -91,7 +112,7 @@ for (const quest of quests) {
         color = "red3"; // manual not completable
     } else if (good.has(quest.Id)) {
         color = "green3"; // tested completable
-    } else if (quest.Sections.length == 0 || quest.Sections.some(x => x.Requirements.some(y => y.Type == "Idk"))) {
+    } else if (quest.Sections.length == 0 || quest.Sections.some(x => x.Requirements.some(y => y.Type == "Idk")) || !quest.Sections.some(x => x.Rewards.some(y => y.Type == "EndQuest")) ) {
         color = "red3"; // cannot meet requirements
     }
     str += `n${quest.Id} [shape=record label="${quest.Name}" style=filled fillcolor=${color}]\n`;

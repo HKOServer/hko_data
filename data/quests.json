@@ -5739,6 +5739,178 @@
         ]
     },
     {
+        "Id": 1016,
+        "Name": "Chopping and Snipping",
+        "Description": "[n36] has set you out on your Branching Quest. Bring as much [i1209], [i1210], [i1211], [i1003] and [i1204] as you can. In return, [n36] will give you [i25] and [i2] and something extra if you bring more than enough requirements. You can collect [i1003] from [p34] or [p35]. You can collect [i1209], [i1210] and [i1211] from [p33] or [p32]. [i1204] can be found in [p31].",
+        "Sections": [
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 1016,
+                        "Flags": 1
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 163,
+                        "Flags": 4
+                    }
+                ],
+                "Npc": 36,
+                "Dialog": 8053,
+                "Rewards": [
+                    {
+                        "Type": "StartQuest"
+                    }
+                ]
+            },
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 1209,
+                        "Count": 10
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 1210,
+                        "Count": 10
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 1211,
+                        "Count": 10
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 1003,
+                        "Count": 10
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 1204,
+                        "Count": 10
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1016,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 36,
+                "Dialog": 8054,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 600
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 2,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 500
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 25,
+                        "Male": 25,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 8450,
+                        "Male": 8450,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 2,
+                        "Male": 2,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 8451,
+                        "Male": 8451,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "EndQuest"
+                    }
+                ]
+            },
+            {
+                "Requirements": [
+                    {
+                        "Type": "GiveItem",
+                        "Id": 1209,
+                        "Count": 5
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 1210,
+                        "Count": 5
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 1211,
+                        "Count": 5
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 1003,
+                        "Count": 5
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 1204,
+                        "Count": 5
+                    },
+                    {
+                        "Type": "Quest",
+                        "Id": 1016,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 36,
+                "Dialog": 8055,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 400
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 2,
+                        "Amount": 20
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 300
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 25,
+                        "Male": 25,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 8450,
+                        "Male": 8450,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "EndQuest"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "Id": 1017,
         "Name": "Pearl All Around",
         "Description": "[n36] has one final challenge for you! She would like you to gather 6 [i1002], 6 [i1001] and 6 [i1825]. In return, she will teach you how to make [i17517] and give you [i12].",
@@ -5752,7 +5924,7 @@
                     },
                     {
                         "Type": "Quest",
-                        "Id": 165,
+                        "Id": 1016,
                         "Flags": 4
                     }
                 ],
@@ -5880,174 +6052,6 @@
                         "Type": "Item",
                         "Female": 8445,
                         "Male": 8445,
-                        "Count": 1
-                    },
-                    {
-                        "Type": "EndQuest"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "Id": 164,
-        "Name": "Chop Chop!",
-        "Description": "[n36] would like to make a [i25] for you! Go and collect 20 [i1209], 10 [i1210] and 2 [i514] and bring it back to [n36]. You can find the [i1209], and [i1210] on Kaolit from [p32] and [p33]. While [i514] needs to be crafted.",
-        "Sections": [
-            {
-                "Requirements": [
-                    {
-                        "Type": "Quest",
-                        "Id": 164,
-                        "Flags": 1
-                    },
-                    {
-                        "Type": "Quest",
-                        "Id": 163,
-                        "Flags": 4
-                    }
-                ],
-                "Npc": 36,
-                "Dialog": 581,
-                "Rewards": [
-                    {
-                        "Type": "StartQuest"
-                    }
-                ]
-            },
-            {
-                "Requirements": [
-                    {
-                        "Type": "GiveItem",
-                        "Id": 1209,
-                        "Count": 20
-                    },
-                    {
-                        "Type": "GiveItem",
-                        "Id": 1210,
-                        "Count": 10
-                    },
-                    {
-                        "Type": "GiveItem",
-                        "Id": 514,
-                        "Count": 2
-                    },
-                    {
-                        "Type": "Quest",
-                        "Id": 164,
-                        "Flags": 2
-                    }
-                ],
-                "Npc": 36,
-                "Dialog": 582,
-                "Rewards": [
-                    {
-                        "Type": "Exp",
-                        "Amount": 250
-                    },
-                    {
-                        "Type": "Friendship",
-                        "Village": 2,
-                        "Amount": 100
-                    },
-                    {
-                        "Type": "Money",
-                        "Amount": 50
-                    },
-                    {
-                        "Type": "Item",
-                        "Female": 25,
-                        "Male": 25,
-                        "Count": 1
-                    },
-                    {
-                        "Type": "Item",
-                        "Female": 8450,
-                        "Male": 8450,
-                        "Count": 1
-                    },
-                    {
-                        "Type": "EndQuest"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "Id": 165,
-        "Name": "Snip Snip!",
-        "Description": "[n36] needs 5 [i1211], 10 [i1003] and 15 [i1204] to  make a pair of [i2]! Please go to the [p34] or [p35] to collect [i1003] and [p33] or [p32] to collect [i1211]. You will be able to find [i1204] in [p31].",
-        "Sections": [
-            {
-                "Requirements": [
-                    {
-                        "Type": "Quest",
-                        "Id": 165,
-                        "Flags": 1
-                    },
-                    {
-                        "Type": "Quest",
-                        "Id": 164,
-                        "Flags": 4
-                    }
-                ],
-                "Npc": 36,
-                "Dialog": 586,
-                "Rewards": [
-                    {
-                        "Type": "StartQuest"
-                    }
-                ]
-            },
-            {
-                "Requirements": [
-                    {
-                        "Type": "GiveItem",
-                        "Id": 1211,
-                        "Count": 5
-                    },
-                    {
-                        "Type": "GiveItem",
-                        "Id": 1003,
-                        "Count": 10
-                    },
-                    {
-                        "Type": "GiveItem",
-                        "Id": 1204,
-                        "Count": 15
-                    },
-                    {
-                        "Type": "Quest",
-                        "Id": 165,
-                        "Flags": 2
-                    }
-                ],
-                "Npc": 36,
-                "Dialog": 587,
-                "Rewards": [
-                    {
-                        "Type": "Exp",
-                        "Amount": 250
-                    },
-                    {
-                        "Type": "Friendship",
-                        "Village": 2,
-                        "Amount": 20
-                    },
-                    {
-                        "Type": "Money",
-                        "Amount": 200
-                    },
-                    {
-                        "Type": "Item",
-                        "Female": 2,
-                        "Male": 2,
-                        "Count": 1
-                    },
-                    {
-                        "Type": "Item",
-                        "Female": 8451,
-                        "Male": 8451,
                         "Count": 1
                     },
                     {
@@ -6371,7 +6375,7 @@
                         "Flags": 4
                     }
                 ],
-                "Npc": 33,
+                "Npc": 39,
                 "Dialog": 8066,
                 "Rewards": [
                     {
@@ -6556,6 +6560,150 @@
                         "Type": "StartQuest"
                     }
                 ]
+            },
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 173,
+                        "Flags": 2
+                    },
+                    {
+                        "Type": "NotFlag",
+                        "Id": 0
+                    }
+                ],
+                "Npc": 30,
+                "Dialog": 627,
+                "Rewards": [
+                    {
+                        "Type": "Flag",
+                        "Id": 0
+                    }
+                ]
+            },
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 173,
+                        "Flags": 2
+                    },
+                    {
+                        "Type": "NotFlag",
+                        "Id": 1
+                    }
+                ],
+                "Npc": 32,
+                "Dialog": 628,
+                "Rewards": [
+                    {
+                        "Type": "Flag",
+                        "Id": 1
+                    }
+                ]
+            },
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 173,
+                        "Flags": 2
+                    },
+                    {
+                        "Type": "NotFlag",
+                        "Id": 2
+                    }
+                ],
+                "Npc": 20,
+                "Dialog": 629,
+                "Rewards": [
+                    {
+                        "Type": "Flag",
+                        "Id": 2
+                    }
+                ]
+            },
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 173,
+                        "Flags": 2
+                    },
+                    {
+                        "Type": "NotFlag",
+                        "Id": 3
+                    }
+                ],
+                "Npc": 16,
+                "Dialog": 630,
+                "Rewards": [
+                    {
+                        "Type": "Flag",
+                        "Id": 3
+                    }
+                ]
+            },
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 173,
+                        "Flags": 2
+                    },
+                    {
+                        "Type": "NotFlag",
+                        "Id": 4
+                    }
+                ],
+                "Npc": 21,
+                "Dialog": 631,
+                "Rewards": [
+                    {
+                        "Type": "Flag",
+                        "Id": 4
+                    }
+                ]
+            },
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 173,
+                        "Flags": 2
+                    },
+                    {
+                        "Type": "Flags",
+                        "Ids": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                ],
+                "Npc": 39,
+                "Dialog": 632,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 500
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 2,
+                        "Amount": 500
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 50
+                    },
+                    {
+                        "Type": "EndQuest"
+                    }
+                ]
             }
         ]
     },
@@ -6573,13 +6721,19 @@
                     },
                     {
                         "Type": "Quest",
-                        "Id": 173,
+                        "Id": 1021,
                         "Flags": 4
                     }
                 ],
                 "Npc": 21,
                 "Dialog": 641,
                 "Rewards": [
+                    {
+                        "Type": "Item",
+                        "Female": 528,
+                        "Male": 528,
+                        "Count": 1
+                    },
                     {
                         "Type": "StartQuest"
                     }
@@ -6711,16 +6865,16 @@
                 "Dialog": 656,
                 "Rewards": [
                     {
+                        "Type": "Key",
+                        "Id": 7003
+                    },
+                    {
                         "Type": "StartQuest"
                     }
                 ]
             },
             {
                 "Requirements": [
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 0 \u0022Investigate at [p203]\u0022"
-                    },
                     {
                         "Type": "Quest",
                         "Id": 176,
@@ -6751,79 +6905,6 @@
         ]
     },
     {
-        "Id": 177,
-        "Name": "Tailor in Training",
-        "Description": "[n33] has woken up! Now he can get back to his day-to-day tasks. However, he needs your help. Please make him 2 [i1826] and 2 [i1827]. Return to [n33] upon acquiring these items.",
-        "Sections": [
-            {
-                "Requirements": [
-                    {
-                        "Type": "Quest",
-                        "Id": 177,
-                        "Flags": 1
-                    },
-                    {
-                        "Type": "Quest",
-                        "Id": 176,
-                        "Flags": 4
-                    }
-                ],
-                "Npc": 33,
-                "Dialog": 661,
-                "Rewards": [
-                    {
-                        "Type": "StartQuest"
-                    }
-                ]
-            },
-            {
-                "Requirements": [
-                    {
-                        "Type": "GiveItem",
-                        "Id": 1826,
-                        "Count": 2
-                    },
-                    {
-                        "Type": "GiveItem",
-                        "Id": 1827,
-                        "Count": 2
-                    },
-                    {
-                        "Type": "Quest",
-                        "Id": 177,
-                        "Flags": 2
-                    }
-                ],
-                "Npc": 33,
-                "Dialog": 662,
-                "Rewards": [
-                    {
-                        "Type": "Exp",
-                        "Amount": 250
-                    },
-                    {
-                        "Type": "Friendship",
-                        "Village": 2,
-                        "Amount": 75
-                    },
-                    {
-                        "Type": "Money",
-                        "Amount": 200
-                    },
-                    {
-                        "Type": "Item",
-                        "Female": 2005,
-                        "Male": 2005,
-                        "Count": 1
-                    },
-                    {
-                        "Type": "EndQuest"
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "Id": 1023,
         "Name": "Tailor Made",
         "Description": "[n33] has woken up! Now he can get back to his day-to-day tasks. However, he needs your help. Make as much [i1826], [i1827], [i1828], [i1829] and [i16053]. Since some of these items are harder to make, bringing more of them will grant you a greater reward. You can purchase the [i8609] in [p9]. Return to [n33] upon acquiring these items.",
@@ -6837,13 +6918,37 @@
                     },
                     {
                         "Type": "Quest",
-                        "Id": 177,
+                        "Id": 176,
                         "Flags": 4
                     }
                 ],
                 "Npc": 33,
                 "Dialog": 8075,
                 "Rewards": [
+                    {
+                        "Type": "Item",
+                        "Female": 8605,
+                        "Male": 8605,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 8606,
+                        "Male": 8606,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 8610,
+                        "Male": 8610,
+                        "Count": 1
+                    },
+                    {
+                        "Type": "Item",
+                        "Female": 8611,
+                        "Male": 8611,
+                        "Count": 1
+                    },
                     {
                         "Type": "StartQuest"
                     }
@@ -6852,20 +6957,29 @@
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "\u0022Collect as much [i1826], [i1827], [i1828], [i1829] and [i16053] for [n33]. You\u0027ll have to get at least 3 [i1826] and 3 [i1827]. \u0022"
+                        "Type": "GiveItem",
+                        "Id": 1826,
+                        "Count": 3
                     },
                     {
-                        "Type": "Idk",
-                        "Text": "\u00223 [i1826] and 3 [i1827] - Bronze Reward \u0022"
+                        "Type": "GiveItem",
+                        "Id": 1827,
+                        "Count": 3
                     },
                     {
-                        "Type": "Idk",
-                        "Text": "\u00223 [i1826], 3 [i1827], 2 [i1828] and 2 [i1829] - Sliver Reward \u0022"
+                        "Type": "GiveItem",
+                        "Id": 1828,
+                        "Count": 2
                     },
                     {
-                        "Type": "Idk",
-                        "Text": "\u00223 [i1826], 3 [i1827], 2 [i1828], 2 [i1829] and 1 [i16053] - Gold Reward \u0022"
+                        "Type": "GiveItem",
+                        "Id": 1829,
+                        "Count": 2
+                    },
+                    {
+                        "Type": "GiveItem",
+                        "Id": 16053,
+                        "Count": 1
                     },
                     {
                         "Type": "Quest",
@@ -6878,7 +6992,7 @@
                 "Rewards": [
                     {
                         "Type": "Exp",
-                        "Amount": 200
+                        "Amount": 550
                     },
                     {
                         "Type": "Friendship",
@@ -6887,7 +7001,7 @@
                     },
                     {
                         "Type": "Money",
-                        "Amount": 200
+                        "Amount": 400
                     },
                     {
                         "Type": "Item",
@@ -6909,20 +7023,24 @@
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "\u0022Collect as much [i1826], [i1827], [i1828], [i1829] and [i16053] for [n33]. You\u0027ll have to get at least 3 [i1826] and 3 [i1827]. \u0022"
+                        "Type": "GiveItem",
+                        "Id": 1826,
+                        "Count": 3
                     },
                     {
-                        "Type": "Idk",
-                        "Text": "\u00223 [i1826] and 3 [i1827] - Bronze Reward \u0022"
+                        "Type": "GiveItem",
+                        "Id": 1827,
+                        "Count": 3
                     },
                     {
-                        "Type": "Idk",
-                        "Text": "\u00223 [i1826], 3 [i1827], 2 [i1828] and 2 [i1829] - Sliver Reward \u0022"
+                        "Type": "GiveItem",
+                        "Id": 1828,
+                        "Count": 2
                     },
                     {
-                        "Type": "Idk",
-                        "Text": "\u00223 [i1826], 3 [i1827], 2 [i1828], 2 [i1829] and 1 [i16053] - Gold Reward \u0022"
+                        "Type": "GiveItem",
+                        "Id": 1829,
+                        "Count": 2
                     },
                     {
                         "Type": "Quest",
@@ -6935,7 +7053,7 @@
                 "Rewards": [
                     {
                         "Type": "Exp",
-                        "Amount": 200
+                        "Amount": 350
                     },
                     {
                         "Type": "Friendship",
@@ -6944,18 +7062,12 @@
                     },
                     {
                         "Type": "Money",
-                        "Amount": 200
+                        "Amount": 300
                     },
                     {
                         "Type": "Item",
                         "Female": 2005,
                         "Male": 2005,
-                        "Count": 1
-                    },
-                    {
-                        "Type": "Item",
-                        "Female": 15209,
-                        "Male": 15209,
                         "Count": 1
                     },
                     {
@@ -6966,20 +7078,14 @@
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "\u0022Collect as much [i1826], [i1827], [i1828], [i1829] and [i16053] for [n33]. You\u0027ll have to get at least 3 [i1826] and 3 [i1827]. \u0022"
+                        "Type": "GiveItem",
+                        "Id": 1826,
+                        "Count": 3
                     },
                     {
-                        "Type": "Idk",
-                        "Text": "\u00223 [i1826] and 3 [i1827] - Bronze Reward \u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "\u00223 [i1826], 3 [i1827], 2 [i1828] and 2 [i1829] - Sliver Reward \u0022"
-                    },
-                    {
-                        "Type": "Idk",
-                        "Text": "\u00223 [i1826], 3 [i1827], 2 [i1828], 2 [i1829] and 1 [i16053] - Gold Reward \u0022"
+                        "Type": "GiveItem",
+                        "Id": 1827,
+                        "Count": 3
                     },
                     {
                         "Type": "Quest",
@@ -7002,18 +7108,6 @@
                     {
                         "Type": "Money",
                         "Amount": 200
-                    },
-                    {
-                        "Type": "Item",
-                        "Female": 2005,
-                        "Male": 2005,
-                        "Count": 1
-                    },
-                    {
-                        "Type": "Item",
-                        "Female": 15209,
-                        "Male": 15209,
-                        "Count": 1
                     },
                     {
                         "Type": "EndQuest"
@@ -7080,146 +7174,6 @@
         ]
     },
     {
-        "Id": 180,
-        "Name": "All About Ambience",
-        "Description": "[n29] is in need of help! With [n37] asleep, there is no one to help around the coffee house. [n29] would like you to collect 10 [i1410] for him to decorate the shop. [i1410] are in the [p37].",
-        "Sections": [
-            {
-                "Requirements": [
-                    {
-                        "Type": "Quest",
-                        "Id": 180,
-                        "Flags": 1
-                    },
-                    {
-                        "Type": "Quest",
-                        "Id": 179,
-                        "Flags": 4
-                    }
-                ],
-                "Npc": 29,
-                "Dialog": 676,
-                "Rewards": [
-                    {
-                        "Type": "StartQuest"
-                    }
-                ]
-            },
-            {
-                "Requirements": [
-                    {
-                        "Type": "GiveItem",
-                        "Id": 1410,
-                        "Count": 10
-                    },
-                    {
-                        "Type": "Quest",
-                        "Id": 180,
-                        "Flags": 2
-                    }
-                ],
-                "Npc": 29,
-                "Dialog": 677,
-                "Rewards": [
-                    {
-                        "Type": "Exp",
-                        "Amount": 150
-                    },
-                    {
-                        "Type": "Friendship",
-                        "Village": 2,
-                        "Amount": 50
-                    },
-                    {
-                        "Type": "Money",
-                        "Amount": 200
-                    },
-                    {
-                        "Type": "EndQuest"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "Id": 181,
-        "Name": "A Fixer-Upper",
-        "Description": "Now that the shop is smelling nice, it is time to fix the coffee house up! [n29] 13 [i1212] and 25 [i1205] from Mulberry Trees in [p36] and 10 [i1211] from Kaolit Trees in [p32].",
-        "Sections": [
-            {
-                "Requirements": [
-                    {
-                        "Type": "Quest",
-                        "Id": 181,
-                        "Flags": 1
-                    },
-                    {
-                        "Type": "Quest",
-                        "Id": 180,
-                        "Flags": 4
-                    }
-                ],
-                "Npc": 29,
-                "Dialog": 681,
-                "Rewards": [
-                    {
-                        "Type": "StartQuest"
-                    }
-                ]
-            },
-            {
-                "Requirements": [
-                    {
-                        "Type": "GiveItem",
-                        "Id": 1212,
-                        "Count": 13
-                    },
-                    {
-                        "Type": "GiveItem",
-                        "Id": 1205,
-                        "Count": 25
-                    },
-                    {
-                        "Type": "GiveItem",
-                        "Id": 1211,
-                        "Count": 10
-                    },
-                    {
-                        "Type": "Quest",
-                        "Id": 181,
-                        "Flags": 2
-                    }
-                ],
-                "Npc": 29,
-                "Dialog": 682,
-                "Rewards": [
-                    {
-                        "Type": "Exp",
-                        "Amount": 200
-                    },
-                    {
-                        "Type": "Friendship",
-                        "Village": 2,
-                        "Amount": 75
-                    },
-                    {
-                        "Type": "Money",
-                        "Amount": 200
-                    },
-                    {
-                        "Type": "Item",
-                        "Female": 17002,
-                        "Male": 17002,
-                        "Count": 1
-                    },
-                    {
-                        "Type": "EndQuest"
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "Id": 1024,
         "Name": "Under Renovation",
         "Description": "[n29] is in need of help! With [n37] asleep, there is no one to help around the coffee house. [n29] would like you to collect 8 [i1410] for him to decorate the shop. [i1410] are in the [p37]. He also needs a couple of things to fix up the shop such as 8 [i1212] and 8 [i1205]. You can get these from Mulberry Trees in [p36]. ",
@@ -7233,7 +7187,7 @@
                     },
                     {
                         "Type": "Quest",
-                        "Id": 181,
+                        "Id": 179,
                         "Flags": 4
                     }
                 ],
@@ -7326,18 +7280,8 @@
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 0 \u0022Go to [n39] and pick up the items \u0022"
-                    },
-                    {
-                        "Type": "GiveItem",
-                        "Id": 574,
-                        "Count": 10
-                    },
-                    {
-                        "Type": "GiveItem",
-                        "Id": 575,
-                        "Count": 5
+                        "Type": "NotFlag",
+                        "Id": 0
                     },
                     {
                         "Type": "Quest",
@@ -7345,32 +7289,32 @@
                         "Flags": 2
                     }
                 ],
-                "Npc": 29,
+                "Npc": 39,
                 "Dialog": 8084,
                 "Rewards": [
                     {
-                        "Type": "Exp",
-                        "Amount": 200
+                        "Type": "Item",
+                        "Female": 574,
+                        "Male": 574,
+                        "Count": 10
                     },
                     {
-                        "Type": "Friendship",
-                        "Village": 2,
-                        "Amount": 15
+                        "Type": "Item",
+                        "Female": 575,
+                        "Male": 575,
+                        "Count": 5
                     },
                     {
-                        "Type": "Money",
-                        "Amount": 200
-                    },
-                    {
-                        "Type": "EndQuest"
+                        "Type": "Flag",
+                        "Id": 0
                     }
                 ]
             },
             {
                 "Requirements": [
                     {
-                        "Type": "Idk",
-                        "Text": "qflag 0 \u0022Go to [n39] and pick up the items \u0022"
+                        "Type": "Flags",
+                        "Ids": [0]
                     },
                     {
                         "Type": "GiveItem",
@@ -7557,6 +7501,12 @@
                 "Dialog": 8087,
                 "Rewards": [
                     {
+                        "Type": "Item",
+                        "Female": 553,
+                        "Male": 553,
+                        "Count": 10
+                    },
+                    {
                         "Type": "StartQuest"
                     }
                 ]
@@ -7620,6 +7570,35 @@
                 "Rewards": [
                     {
                         "Type": "StartQuest"
+                    }
+                ]
+            },
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 186,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 32,
+                "Dialog": 707,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 150
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 2,
+                        "Amount": 75
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 75
+                    },
+                    {
+                        "Type": "EndQuest"
                     }
                 ]
             }
@@ -7715,7 +7694,40 @@
                 "Dialog": 721,
                 "Rewards": [
                     {
+                        "Type": "Key",
+                        "Id": 7004
+                    },
+                    {
                         "Type": "StartQuest"
+                    }
+                ]
+            },
+            {
+                "Requirements": [
+                    {
+                        "Type": "Quest",
+                        "Id": 189,
+                        "Flags": 2
+                    }
+                ],
+                "Npc": 37,
+                "Dialog": 722,
+                "Rewards": [
+                    {
+                        "Type": "Exp",
+                        "Amount": 150
+                    },
+                    {
+                        "Type": "Friendship",
+                        "Village": 2,
+                        "Amount": 75
+                    },
+                    {
+                        "Type": "Money",
+                        "Amount": 75
+                    },
+                    {
+                        "Type": "EndQuest"
                     }
                 ]
             }
@@ -7725,6 +7737,10 @@
         "Id": 190,
         "Name": "Purin\u0027s Coffee",
         "Description": "You\u0027ve finally met [n37] but he is very groggy and not in any condition to cooperate. He needs some coffee! It is time for you to leap into action. Talk to him again to make some coffee!",
+        "Minigame": {
+            "Id": 4,
+            "Score": 1
+        },
         "Sections": [
             {
                 "Requirements": [
@@ -7743,7 +7759,7 @@
                 "Dialog": 726,
                 "Rewards": [
                     {
-                        "Type": "StartQuest"
+                        "Type": "StartMinigame"
                     }
                 ]
             },
@@ -7752,11 +7768,6 @@
                     {
                         "Type": "Quest",
                         "Id": 190,
-                        "Flags": 1
-                    },
-                    {
-                        "Type": "Quest",
-                        "Id": 189,
                         "Flags": 4
                     }
                 ],
@@ -7770,10 +7781,6 @@
             },
             {
                 "Requirements": [
-                    {
-                        "Type": "Idk",
-                        "Text": "qflag 0 \u0022Make 12 cups of coffee in mini game\u0022"
-                    },
                     {
                         "Type": "Quest",
                         "Id": 190,
