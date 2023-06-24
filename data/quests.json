@@ -6797,6 +6797,21 @@
                 "Dialog": 8072,
                 "Rewards": [
                     {
+                        "Type": "Checkpoint",
+                        "Ids": [
+                            299,
+                            300,
+                            301,
+                            302,
+                            303,
+                            304,
+                            305,
+                            306,
+                            307,
+                            308
+                        ]
+                    },
+                    {
                         "Type": "StartQuest"
                     }
                 ]
@@ -7314,7 +7329,9 @@
                 "Requirements": [
                     {
                         "Type": "Flags",
-                        "Ids": [0]
+                        "Ids": [
+                            0
+                        ]
                     },
                     {
                         "Type": "GiveItem",
